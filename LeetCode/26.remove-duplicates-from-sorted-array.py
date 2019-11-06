@@ -1,7 +1,11 @@
-# -*- coding:UTF-8 -*-
+#
+# @lc app=leetcode.cn id=26 lang=python
+#
+# [26] 删除排序数组中的重复项
+#
 
+# @lc code=start
 class Solution(object):
-    @classmethod
     def removeDuplicates(self, nums):
         """
         :type nums: List[int]
@@ -14,8 +18,6 @@ class Solution(object):
             else:
                 nums.pop(_index + 1)
         return len(nums)
+        
+# @lc code=end
 
-
-if __name__ == "__main__":
-    nums = [1,1,2]
-    print(Solution().removeDuplicates(nums = nums))
