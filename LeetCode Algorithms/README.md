@@ -1,16 +1,16 @@
 <p align="center"><img width="300" src="https://github.com/yijiantao/WorkSpace/tree/master/LeetCode%20Algorithms/static/site-logo.png"></p>
 <p align="center">
-    <img src="https://img.shields.io/badge/Solved/Total-15/1055-green.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Solved/Total-16/1055-green.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Hard-1-blue.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Medium-1-blue.svg?style=flat-square" alt="">
-    <img src="https://img.shields.io/badge/Easy-13-blue.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Easy-14-blue.svg?style=flat-square" alt="">
 </p>
 <h3 align="center">My leetcode solutions</h3>
 
 <p align="center">
     <b>Language: python3 go c cpp</b>
     <br>
-    <b>Last updated: 2019-11-10</b>
+    <b>Last updated: 2019-11-12</b>
     <br><br>
 </p>
 
@@ -22,3 +22,4 @@
 | 641 | [设计循环双端队列](https://leetcode.com/problems/design-circular-deque/) |  | [Solutions](./641.设计循环双端队列.py) | [python3](./641.设计循环双端队列.py) | Medium |
 | 42 | [接雨水](https://leetcode.com/problems/trapping-rain-water/) |  | [Solutions](./42.接雨水.py) | [python3](./42.接雨水.py) | Hard |
 | 242 | [有效的字母异位词](https://leetcode.com/problems/valid-anagram/) |  | [Solutions](./242.有效的字母异位词.py) | [python3](./242.有效的字母异位词.py) | Easy |
+| 202 | [快乐数](https://leetcode.com/problems/happy-number/) |  | [Solutions](./242.快乐数.py) | [python3](./242.快乐数.py) | Easy |
