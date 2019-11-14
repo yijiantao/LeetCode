@@ -14,6 +14,8 @@
     <br><br>
 </p>
 
+<center>
+
 |   #   |   Problems     |  Tag  |  Solutions    |  Code     |  Difficulty   |
 |:-----:|:----------------------------------------:|:---:|:-------------:|:--------:|:--------------:|
 | 189 | [旋转数组](https://leetcode-cn.com/problems/rotate-array) |  | [Solutions](./189.旋转数组.py) | [python3](./189.旋转数组.py) | Easy |
@@ -25,3 +27,5 @@
 | 202 | [快乐数](https://leetcode.com/problems/happy-number/) |  | [Solutions](./242.快乐数.py) | [python3](./242.快乐数.py) | Easy |
 | 217 | [存在重复元素](https://leetcode.com/problems/contains-duplicate/) |  | [Solutions](./217.存在重复元素.py) | [python3](./217.存在重复元素.py) | Easy |
 | 796 | [旋转字符串](https://leetcode.com/problems/rotate-string/) |  | [Solutions](./796.旋转字符串.py) | [python3](./796.旋转字符串.py) | Easy |
+
+</center>
