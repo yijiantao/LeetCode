@@ -14,7 +14,7 @@
     <br><br>
 </p>
 
-| 　#　 | 　　　　　　　　　Problems　　　　　　　　　 | 　　Tag　　 | Solutions | 　Code　 | 　Difficulty　 |
+| # | Problems | Tag | Solutions | Code | Difficulty |
 |:-----:|:----------------------------------------:|:---:|:-------------:|:--------:|:--------------:|
 | 189 | [旋转数组](https://leetcode-cn.com/problems/rotate-array) |  | [Solutions](./189.旋转数组.py) | [python3](./189.旋转数组.py) | Easy |
 | 26 | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array) |  | [Solutions](./26.remove-duplicates-from-sorted-array.py) | [python3](./26.remove-duplicates-from-sorted-array.py) | Easy |
