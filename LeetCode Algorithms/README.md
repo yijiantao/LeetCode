@@ -14,7 +14,7 @@
     <br><br>
 </p>
 
-<center>
+<div align="center">
 
 |   #   |   Problems     |  Tag  |  Solutions    |  Code     |  Difficulty   |
 |:-----:|:----------------------------------------:|:---:|:-------------:|:--------:|:--------------:|
@@ -28,4 +28,4 @@
 | 217 | [存在重复元素](https://leetcode.com/problems/contains-duplicate/) |  | [Solutions](./217.存在重复元素.py) | [python3](./217.存在重复元素.py) | Easy |
 | 796 | [旋转字符串](https://leetcode.com/problems/rotate-string/) |  | [Solutions](./796.旋转字符串.py) | [python3](./796.旋转字符串.py) | Easy |
 
-</center>
+</div>
