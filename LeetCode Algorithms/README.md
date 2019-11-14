@@ -1,4 +1,4 @@
-<p align="center"><img width="300" src="https://github.com/yijiantao/WorkSpace/tree/master/LeetCode%20Algorithms/static/site-logo.png"></p>
+<p align="center"><img width="300" src="https://github.com/yijiantao/WorkSpace/blob/master/LeetCode%20Algorithms/static/site-logo.png"></p>
 <p align="center">
     <img src="https://img.shields.io/badge/Solved/Total-18/1055-green.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Hard-1-blue.svg?style=flat-square" alt="">
@@ -14,7 +14,7 @@
     <br><br>
 </p>
 
-| # | Problems | Tag | Solutions | Code | Difficulty |
+|   #   |   Problems     |  Tag  |  Solutions    |  Code     |  Difficulty   |
 |:-----:|:----------------------------------------:|:---:|:-------------:|:--------:|:--------------:|
 | 189 | [旋转数组](https://leetcode-cn.com/problems/rotate-array) |  | [Solutions](./189.旋转数组.py) | [python3](./189.旋转数组.py) | Easy |
 | 26 | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array) |  | [Solutions](./26.remove-duplicates-from-sorted-array.py) | [python3](./26.remove-duplicates-from-sorted-array.py) | Easy |
