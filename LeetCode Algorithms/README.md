@@ -1,9 +1,9 @@
 <p align="center"><img width="300" src="https://github.com/yijiantao/WorkSpace/blob/master/LeetCode%20Algorithms/static/site-logo.png"></p>
 <p align="center">
-    <img src="https://img.shields.io/badge/Solved/Total-18/1055-green.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Solved/Total-19/1055-green.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Hard-1-blue.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Medium-1-blue.svg?style=flat-square" alt="">
-    <img src="https://img.shields.io/badge/Easy-16-blue.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Easy-17-blue.svg?style=flat-square" alt="">
 </p>
 <h3 align="center">My leetcode solutions</h3>
 
@@ -27,5 +27,6 @@
 | 202 | [快乐数](https://leetcode.com/problems/happy-number/) |  | [Solutions](./242.快乐数.py) | [python3](./242.快乐数.py) | Easy |
 | 217 | [存在重复元素](https://leetcode.com/problems/contains-duplicate/) |  | [Solutions](./217.存在重复元素.py) | [python3](./217.存在重复元素.py) | Easy |
 | 796 | [旋转字符串](https://leetcode.com/problems/rotate-string/) |  | [Solutions](./796.旋转字符串.py) | [python3](./796.旋转字符串.py) | Easy |
+| 263 | [丑数](https://leetcode.com/problems/ugly-number/) |  | [Solutions](./263.丑数.py) | [python3](./263.丑数.py) | Easy |
 
 </div>
