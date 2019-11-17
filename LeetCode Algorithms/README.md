@@ -29,5 +29,6 @@
 | 796 | [旋转字符串](https://leetcode.com/problems/rotate-string/) |  | [Solutions](./796.旋转字符串.py) | [python3](./796.旋转字符串.py) | Easy |
 | 263 | [丑数](https://leetcode.com/problems/ugly-number/) |  | [Solutions](./263.丑数.py) | [python3](./263.丑数.py) | Easy |
 | 290 | [单词规律](https://leetcode.com/problems/word-pattern/) |  | [Solutions](./290.单词规律.py) | [python3](./290.单词规律.py) | Easy |
+| 258 | [各位相加](https://leetcode.com/problems/add-digits/) |  | [Solutions](./258.各位相加.py) | [python3](./258.各位相加.py) | Easy |
 
 </div>
