@@ -30,5 +30,6 @@
 | 263 | [丑数](https://leetcode.com/problems/ugly-number/) |  | [Solutions](./263.丑数.py) | [python3](./263.丑数.py) | Easy |
 | 290 | [单词规律](https://leetcode.com/problems/word-pattern/) |  | [Solutions](./290.单词规律.py) | [python3](./290.单词规律.py) | Easy |
 | 258 | [各位相加](https://leetcode.com/problems/add-digits/) |  | [Solutions](./258.各位相加.py) | [python3](./258.各位相加.py) | Easy |
+| xxx | [xxx](https://leetcode.com/problems/add-digits/) | 今天断网先欠着，明天补刷！ | [Solutions](./xxx.py) | [python3](./xxx.py) | Easy |
 
 </div>
