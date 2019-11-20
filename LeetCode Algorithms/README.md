@@ -1,8 +1,8 @@
 <p align="center"><img width="300" src="https://github.com/yijiantao/WorkSpace/blob/master/LeetCode%20Algorithms/static/site-logo.png"></p>
 <p align="center">
-    <img src="https://img.shields.io/badge/Solved/Total-22/1055-green.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Solved/Total-23/1055-green.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Hard-1-blue.svg?style=flat-square" alt="">
-    <img src="https://img.shields.io/badge/Medium-2-blue.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Medium-3-blue.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Easy-19-blue.svg?style=flat-square" alt="">
 </p>
 <h3 align="center">My leetcode solutions</h3>
