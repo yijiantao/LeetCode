@@ -20,6 +20,7 @@
 |:-----:|:----------------------------------------:|:---:|:-------------:|:--------:|:--------------:|
 | 165 | [比较版本号](https://leetcode-cn.com/problems/compare-version-numbers) |  | [Solutions](./165.比较版本号.py) | [python3](./165.比较版本号.py) | Medium |
 | 189 | [旋转数组](https://leetcode-cn.com/problems/rotate-array) |  | [Solutions](./189.旋转数组.py) | [python3](./189.旋转数组.py) | Easy |
+| 162 | [寻找峰值](https://leetcode-cn.com/problems/find-peak-element) |  | [Solutions](./162.寻找峰值.py) | [python3](./162.寻找峰值.py) | Medium |
 | 151 | [翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string) |  | [Solutions](./151.翻转字符串里的单词.py) | [python3](./151.翻转字符串里的单词.py) | Medium |
 | 26 | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array) |  | [Solutions](./26.remove-duplicates-from-sorted-array.py) | [python3](./26.remove-duplicates-from-sorted-array.py) | Easy |
 | 21 | [合并两个有序链表](https://leetcode.com/problems/merge-two-sorted-lists/) |  | [Solutions](./21.合并两个有序链表.go) | [go](./21.合并两个有序链表.go) | Easy |
