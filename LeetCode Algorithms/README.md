@@ -21,6 +21,7 @@
 | 2 | [两数相加](https://leetcode-cn.com/problems/add-two-numbers) |  | [Solutions](./2.两数相加.py) | [python3](./2.两数相加.py) | Medium |
 | 165 | [比较版本号](https://leetcode-cn.com/problems/compare-version-numbers) |  | [Solutions](./165.比较版本号.py) | [python3](./165.比较版本号.py) | Medium |
 | 7 | [整数反转](https://leetcode-cn.com/problems/reverse-integer) |  | [Solutions](./7.整数反转.py) | [python3](./7.整数反转.py) | Easy |
+| 77 | [组合](https://leetcode-cn.com/problems/combinations) |  | [Solutions](./77.组合.py) | [python3](./77.组合.py) | Medium |
 | 189 | [旋转数组](https://leetcode-cn.com/problems/rotate-array) |  | [Solutions](./189.旋转数组.py) | [python3](./189.旋转数组.py) | Easy |
 | 162 | [寻找峰值](https://leetcode-cn.com/problems/find-peak-element) |  | [Solutions](./162.寻找峰值.py) | [python3](./162.寻找峰值.py) | Medium |
 | 151 | [翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string) |  | [Solutions](./151.翻转字符串里的单词.py) | [python3](./151.翻转字符串里的单词.py) | Medium |
