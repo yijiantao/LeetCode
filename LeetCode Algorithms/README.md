@@ -1,16 +1,16 @@
 <p align="center"><img width="300" src="https://github.com/yijiantao/WorkSpace/blob/master/LeetCode%20Algorithms/static/site-logo.png"></p>
 <p align="center">
-    <img src="https://img.shields.io/badge/Solved/Total-25/1055-green.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Solved/Total-26/1055-green.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Hard-1-blue.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Medium-5-blue.svg?style=flat-square" alt="">
-    <img src="https://img.shields.io/badge/Easy-19-blue.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Easy-20-blue.svg?style=flat-square" alt="">
 </p>
 <h3 align="center">My leetcode solutions</h3>
 
 <p align="center">
     <b>Language: python3 go c cpp</b>
     <br>
-    <b>Last updated: 2019-11-20</b>
+    <b>Last updated: 2019-11-22</b>
     <br><br>
 </p>
 
