@@ -1,8 +1,8 @@
 <p align="center"><img width="300" src="https://github.com/yijiantao/WorkSpace/blob/master/LeetCode%20Algorithms/static/site-logo.png"></p>
 <p align="center">
-    <img src="https://img.shields.io/badge/Solved/Total-29/1055-green.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Solved/Total-30/1055-green.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Hard-2-blue.svg?style=flat-square" alt="">
-    <img src="https://img.shields.io/badge/Medium-6-blue.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Medium-7-blue.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Easy-21-blue.svg?style=flat-square" alt="">
 </p>
 <h3 align="center">My leetcode solutions</h3>
@@ -19,6 +19,7 @@
 | 　#　 | 　　　　　　　　　Problems　　　　　　　　　 | 　　Tag　　 | Solutions | 　Code　 | 　Difficulty　 |
 |:-----:|:----------------------------------------:|:---:|:-------------:|:--------:|:--------------:|
 | 2 | [两数相加](https://leetcode-cn.com/problems/add-two-numbers) |  | [Solutions](./2.两数相加.py) | [python3](./2.两数相加.py) | Medium |
+| 12 | [整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman) |  | [Solutions](./12.整数转罗马数字.py) | [python3](./12.整数转罗马数字.py) | Medium |
 | 4 | [寻找两个有序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays) |  | [Solutions](./4.寻找两个有序数组的中位数.py) | [python3](./4.寻找两个有序数组的中位数.py) | Hard |
 | 165 | [比较版本号](https://leetcode-cn.com/problems/compare-version-numbers) |  | [Solutions](./165.比较版本号.py) | [python3](./165.比较版本号.py) | Medium |
 | 7 | [整数反转](https://leetcode-cn.com/problems/reverse-integer) |  | [Solutions](./7.整数反转.py) | [python3](./7.整数反转.py) | Easy |
