@@ -1,9 +1,9 @@
 <p align="center"><img width="300" src="https://github.com/yijiantao/WorkSpace/blob/master/LeetCode%20Algorithms/static/site-logo.png"></p>
 <p align="center">
-    <img src="https://img.shields.io/badge/Solved/Total-30/1055-green.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Solved/Total-31/1055-green.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Hard-2-blue.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Medium-7-blue.svg?style=flat-square" alt="">
-    <img src="https://img.shields.io/badge/Easy-21-blue.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Easy-22-blue.svg?style=flat-square" alt="">
 </p>
 <h3 align="center">My leetcode solutions</h3>
 
@@ -41,5 +41,6 @@
 | 258 | [各位相加](https://leetcode.com/problems/add-digits/) |  | [Solutions](./258.各位相加.py) | [python3](./258.各位相加.py) | Easy |
 | 268 | [缺失数字](https://leetcode.com/problems/missing-number/) |  | [Solutions](./268.缺失数字.py) | [python3](./268.缺失数字.py) | Easy |
 | 20 | [有效的括号](https://leetcode.com/problems/valid-parentheses/) |  | [Solutions](./20.有效的括号.py) | [python3](./20.有效的括号.py) | Easy |
+| 27 | [移除元素](https://leetcode.com/problems/remove-element/) |  | [Solutions](./27.移除元素.py) | [python3](./27.移除元素.py) | Easy |
 
 </div>
