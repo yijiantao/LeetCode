@@ -43,5 +43,6 @@
 | 20 | [有效的括号](https://leetcode.com/problems/valid-parentheses/) |  | [Solutions](./20.有效的括号.py) | [python3](./20.有效的括号.py) | Easy |
 | 27 | [移除元素](https://leetcode.com/problems/remove-element/) |  | [Solutions](./27.移除元素.py) | [python3](./27.移除元素.py) | Easy |
 | 28 | [实现 strStr()](https://leetcode.com/problems/implement-strstr/) |  | [Solutions](./28.实现-str-str.py) | [python3](./28.实现-str-str.py) | Easy |
+| 35 | [搜索插入位置](https://leetcode.com/problems/search-insert-position/) |  | [Solutions](./35.搜索插入位置.py) | [python3](./35.搜索插入位置.py) | Easy |
 
 </div>
