@@ -12,4 +12,3 @@ class Solution:
                 return _index
         return _index + 1
 # @lc code=end
-
