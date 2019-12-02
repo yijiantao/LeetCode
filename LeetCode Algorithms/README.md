@@ -1,8 +1,8 @@
 <p align="center"><img width="300" src="https://github.com/yijiantao/WorkSpace/blob/master/LeetCode%20Algorithms/static/site-logo.png"></p>
 <p align="center">
-    <img src="https://img.shields.io/badge/Solved/Total-34/1055-green.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Solved/Total-35/1055-green.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Hard-2-blue.svg?style=flat-square" alt="">
-    <img src="https://img.shields.io/badge/Medium-8-blue.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Medium-9-blue.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Easy-24-blue.svg?style=flat-square" alt="">
 </p>
 <h3 align="center">My leetcode solutions</h3>
@@ -22,6 +22,7 @@
 | 12 | [整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman) |  | [Solutions](./12.整数转罗马数字.py) | [python3](./12.整数转罗马数字.py) | Medium |
 | 19 | [删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list) |  | [Solutions](./19.删除链表的倒数第N个节点.py) | [python3](./19.删除链表的倒数第N个节点.py) | Medium |
 | 4 | [寻找两个有序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays) |  | [Solutions](./4.寻找两个有序数组的中位数.py) | [python3](./4.寻找两个有序数组的中位数.py) | Hard |
+| 50 | [Pow(x, n)](https://leetcode-cn.com/problems/pow-x-n) |  | [Solutions](./50.pow-x-n.py) | [python3](./50.pow-x-n.py) | Medium |
 | 165 | [比较版本号](https://leetcode-cn.com/problems/compare-version-numbers) |  | [Solutions](./165.比较版本号.py) | [python3](./165.比较版本号.py) | Medium |
 | 7 | [整数反转](https://leetcode-cn.com/problems/reverse-integer) |  | [Solutions](./7.整数反转.py) | [python3](./7.整数反转.py) | Easy |
 | 8 | [字符串转换整数](https://leetcode-cn.com/problems/string-to-integer-atoi) |  | [Solutions](./8.字符串转换整数.py) | [python3](./8.字符串转换整数.py) | Medium |
