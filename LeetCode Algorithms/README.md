@@ -1,8 +1,8 @@
 <p align="center"><img width="300" src="https://github.com/yijiantao/WorkSpace/blob/master/LeetCode%20Algorithms/static/site-logo.png"></p>
 <p align="center">
-    <img src="https://img.shields.io/badge/Solved/Total-35/1055-green.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Solved/Total-36/1055-green.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Hard-2-blue.svg?style=flat-square" alt="">
-    <img src="https://img.shields.io/badge/Medium-9-blue.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Medium-10-blue.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Easy-24-blue.svg?style=flat-square" alt="">
 </p>
 <h3 align="center">My leetcode solutions</h3>
@@ -20,6 +20,7 @@
 |:-----:|:----------------------------------------:|:---:|:-------------:|:--------:|:--------------:|
 | 2 | [两数相加](https://leetcode-cn.com/problems/add-two-numbers) |  | [Solutions](./2.两数相加.py) | [python3](./2.两数相加.py) | Medium |
 | 12 | [整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman) |  | [Solutions](./12.整数转罗马数字.py) | [python3](./12.整数转罗马数字.py) | Medium |
+| 29 | [两数相除](https://leetcode-cn.com/problems/divide-two-integers) |  | [Solutions](./29.两数相除.py) | [python3](./29.两数相除.py) | Medium |
 | 19 | [删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list) |  | [Solutions](./19.删除链表的倒数第N个节点.py) | [python3](./19.删除链表的倒数第N个节点.py) | Medium |
 | 4 | [寻找两个有序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays) |  | [Solutions](./4.寻找两个有序数组的中位数.py) | [python3](./4.寻找两个有序数组的中位数.py) | Hard |
 | 50 | [Pow(x, n)](https://leetcode-cn.com/problems/powx-n) |  | [Solutions](./50.pow-x-n.py) | [python3](./50.pow-x-n.py) | Medium |
