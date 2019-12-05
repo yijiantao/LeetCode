@@ -1,9 +1,9 @@
 <p align="center"><img width="300" src="https://github.com/yijiantao/WorkSpace/blob/master/LeetCode%20Algorithms/static/site-logo.png"></p>
 <p align="center">
-    <img src="https://img.shields.io/badge/Solved/Total-37/1055-green.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Solved/Total-38/1055-green.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Hard-2-blue.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Medium-11-blue.svg?style=flat-square" alt="">
-    <img src="https://img.shields.io/badge/Easy-24-blue.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Easy-25-blue.svg?style=flat-square" alt="">
 </p>
 <h3 align="center">My leetcode solutions</h3>
 
@@ -48,5 +48,6 @@
 | 27 | [移除元素](https://leetcode.com/problems/remove-element/) |  | [Solutions](./27.移除元素.py) | [python3](./27.移除元素.py) | Easy |
 | 28 | [实现 strStr()](https://leetcode.com/problems/implement-strstr/) |  | [Solutions](./28.实现-str-str.py) | [python3](./28.实现-str-str.py) | Easy |
 | 35 | [搜索插入位置](https://leetcode.com/problems/search-insert-position/) |  | [Solutions](./35.搜索插入位置.py) | [python3](./35.搜索插入位置.py) | Easy |
+| 69 | [x 的平方根](https://leetcode.com/problems/sqrtx/) |  | [Solutions](./69.x-的平方根.py) | [python3](./69.x-的平方根.py) | Easy |
 
 </div>
