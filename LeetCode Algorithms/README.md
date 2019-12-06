@@ -1,8 +1,8 @@
 <p align="center"><img width="300" src="https://github.com/yijiantao/WorkSpace/blob/master/LeetCode%20Algorithms/static/site-logo.png"></p>
 <p align="center">
-    <img src="https://img.shields.io/badge/Solved/Total-38/1055-green.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Solved/Total-39/1055-green.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Hard-2-blue.svg?style=flat-square" alt="">
-    <img src="https://img.shields.io/badge/Medium-11-blue.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Medium-12-blue.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Easy-25-blue.svg?style=flat-square" alt="">
 </p>
 <h3 align="center">My leetcode solutions</h3>
@@ -10,7 +10,7 @@
 <p align="center">
     <b>Language: python3 go c cpp</b>
     <br>
-    <b>Last updated: 2019-12-01</b>
+    <b>Last updated: 2019-12-06</b>
     <br><br>
 </p>
 
@@ -23,6 +23,7 @@
 | 15 | [三数之和](https://leetcode-cn.com/problems/3sum) |  | [Solutions](./15.三数之和.py) | [python3](./15.三数之和.py) | Medium |
 | 29 | [两数相除](https://leetcode-cn.com/problems/divide-two-integers) |  | [Solutions](./29.两数相除.py) | [python3](./29.两数相除.py) | Medium |
 | 19 | [删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list) |  | [Solutions](./19.删除链表的倒数第N个节点.py) | [python3](./19.删除链表的倒数第N个节点.py) | Medium |
+| 43 | [字符串相乘](https://leetcode-cn.com/problems/multiply-strings) |  | [Solutions](./43.字符串相乘.py) | [python3](./43.字符串相乘.py) | Medium |
 | 4 | [寻找两个有序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays) |  | [Solutions](./4.寻找两个有序数组的中位数.py) | [python3](./4.寻找两个有序数组的中位数.py) | Hard |
 | 50 | [Pow(x, n)](https://leetcode-cn.com/problems/powx-n) |  | [Solutions](./50.pow-x-n.py) | [python3](./50.pow-x-n.py) | Medium |
 | 165 | [比较版本号](https://leetcode-cn.com/problems/compare-version-numbers) |  | [Solutions](./165.比较版本号.py) | [python3](./165.比较版本号.py) | Medium |
