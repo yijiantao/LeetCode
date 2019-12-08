@@ -1,8 +1,8 @@
 <p align="center"><img width="300" src="https://github.com/yijiantao/WorkSpace/blob/master/LeetCode%20Algorithms/static/site-logo.png"></p>
 <p align="center">
-    <img src="https://img.shields.io/badge/Solved/Total-40/1055-green.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Solved/Total-41/1055-green.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Hard-2-blue.svg?style=flat-square" alt="">
-    <img src="https://img.shields.io/badge/Medium-13-blue.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Medium-14-blue.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Easy-25-blue.svg?style=flat-square" alt="">
 </p>
 <h3 align="center">My leetcode solutions</h3>
@@ -18,6 +18,7 @@
 
 | 　#　 | 　　　　　　　　　Problems　　　　　　　　　 | 　　Tag　　 | Solutions | 　Code　 | 　Difficulty　 |
 |:-----:|:----------------------------------------:|:---:|:-------------:|:--------:|:--------------:|
+| 5 | [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring) |  | [Solutions](./5.最长回文子串.py) | [python3](./5.两最长回文子串数相加.py) | Medium |
 | 2 | [两数相加](https://leetcode-cn.com/problems/add-two-numbers) |  | [Solutions](./2.两数相加.py) | [python3](./2.两数相加.py) | Medium |
 | 3 | [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters) |  | [Solutions](./3.无重复字符的最长子串.py) | [python3](./3.无重复字符的最长子串.py) | Medium |
 | 12 | [整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman) |  | [Solutions](./12.整数转罗马数字.py) | [python3](./12.整数转罗马数字.py) | Medium |
