@@ -52,5 +52,6 @@
 | 28 | [实现 strStr()](https://leetcode.com/problems/implement-strstr/) |  | [Solutions](./28.实现-str-str.py) | [python3](./28.实现-str-str.py) | Easy |
 | 35 | [搜索插入位置](https://leetcode.com/problems/search-insert-position/) |  | [Solutions](./35.搜索插入位置.py) | [python3](./35.搜索插入位置.py) | Easy |
 | 69 | [x 的平方根](https://leetcode.com/problems/sqrtx/) |  | [Solutions](./69.x-的平方根.py) | [python3](./69.x-的平方根.py) | Easy |
+| 38 | [报数](https://leetcode.com/problems/count-and-say/) |  | [Solutions](./38.报数.py) | [python3](./38.报数.py) | Easy |
 
 </div>
