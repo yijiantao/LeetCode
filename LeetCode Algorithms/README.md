@@ -1,8 +1,8 @@
 <p align="center"><img width="300" src="https://github.com/yijiantao/WorkSpace/blob/master/LeetCode%20Algorithms/static/site-logo.png"></p>
 <p align="center">
-    <img src="https://img.shields.io/badge/Solved/Total-43/1055-green.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Solved/Total-44/1055-green.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Hard-2-blue.svg?style=flat-square" alt="">
-    <img src="https://img.shields.io/badge/Medium-16-blue.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Medium-17-blue.svg?style=flat-square" alt="">
     <img src="https://img.shields.io/badge/Easy-25-blue.svg?style=flat-square" alt="">
 </p>
 <h3 align="center">My leetcode solutions</h3>
@@ -10,7 +10,7 @@
 <p align="center">
     <b>Language: python3 go c cpp</b>
     <br>
-    <b>Last updated: 2019-12-06</b>
+    <b>Last updated: 2019-12-12</b>
     <br><br>
 </p>
 
