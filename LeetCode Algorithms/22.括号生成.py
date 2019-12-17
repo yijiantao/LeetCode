@@ -6,9 +6,13 @@
 
 # @lc code=start
 class Solution:
-    def generateParenthesis(self, n: int) -> List[str]:
+    # def generateParenthesis(self, n: int) -> List[str]:
+    @classmethod
+    def generateParenthesis(self, n):
+        # 回溯法 
         res = []
         def backtrack(S = '', left = 0, right = 0):
+            print (S)
             if len(S) == 2 * n:
                 res.append(S)
                 return
@@ -20,3 +24,4 @@ class Solution:
         return res
 # @lc code=end
 
+print (Solution.generateParenthesis(n = 3))
