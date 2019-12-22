@@ -6,7 +6,9 @@
 
 # @lc code=start
 class Solution:
-    def maxSubArray(self, nums: List[int]) -> int:
+    # def maxSubArray(self, nums: List[int]) -> int:
+    @ classmethod
+    def maxSubArray(self, nums):
         # 动态规划 DP
         # 分析存在如下两种情况：
         ## 1.当前元素为子序起始点
@@ -17,6 +19,8 @@ class Solution:
         for _index in range(1, len(nums)):
             nums[_index] = max(nums[_index], nums[_index] + nums[_index - 1])
             max_num = max(max_num, nums[_index])
+        print (nums)
         return max_num
 # @lc code=end
 
+print (Solution.maxSubArray(nums = [-2,1,-3,4,-1,2,1,-5,4]))
