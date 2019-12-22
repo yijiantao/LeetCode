@@ -7,8 +7,12 @@
 # @lc code=start
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
-        # 分治法：其实最大子序要么在左半边，要么在右半边，要么穿过中间
-        # 对于左右两边的子序列情况是一样的，可用递归处理求出
-        # 穿过中间部分的子序列可以直接计算出来
+        # 动态规划 DP
+        
+        max_num = nums[0]
+        for _index in range(1, len(nums)):
+            nums[_index] = max(nums[_index], nums[_index] + nums[_index - 1])
+            max_num = max(max_num, nums[_index])
+        return max_num
 # @lc code=end
 
