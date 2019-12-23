@@ -5,3 +5,4 @@
 ## 更新中
  - [LeetCode Algorithms](https://github.com/yijiantao/WorkSpace/tree/master/LeetCode%20Algorithms): Leetcode 算法题
  - [左耳听风 阅读笔记](https://github.com/yijiantao/WorkSpace/tree/master/Notebook/ARTS): 左耳听风 ARTS
+ - [设计模式](https://github.com/yijiantao/WorkSpace/tree/master/Notebook/DesignPattern): Python 实现
