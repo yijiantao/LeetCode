@@ -9,10 +9,9 @@ class Solution:
     # def isPalindrome(self, s: str) -> bool:
     @classmethod
     def isPalindrome(self, s):
-        # filter_str = lambda x: str.lower(''.join(filter(str.isalnum, str(x).replace(' ', ''))))
-        # return filter_str(s) == ''.join(reversed(filter_str(s)))
-
+        filter_str = lambda x: str.lower(''.join(filter(str.isalnum, str(x).replace(' ', ''))))
+        return filter_str(s) == ''.join(reversed(filter_str(s)))
         
 # @lc code=end
 
-print (Solution.isPalindrome(s = "1A man, a plan, a canal: Panama1"))
+print (Solution.isPalindrome(s = "aa"))
