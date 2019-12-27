@@ -71,14 +71,10 @@ class order():
 
 class orderBuilder():    # 建造者模式中所谓的“建造者”
     bBurger = ""
-    bSnack = ""
     bBeverage = ""
 
     def addBurger(self, xBurger):
         self.bBurger = xBurger
-
-    def addSnack(self, xSnack):
-        self.bSnack = xSnack
 
     def addBeverage(self, xBeverage):
         self.bBeverage = xBeverage
