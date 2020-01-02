@@ -74,6 +74,7 @@ class BrushPen(Pen):    # 画刷类
 
 
 if __name__ == "__main__":
+    
     """
         开始画画，业务逻辑开始...
     """
