@@ -10,8 +10,8 @@ class Solution:
     # def isPowerOfThree(self, n: int) -> bool:
     @classmethod
     def isPowerOfThree(self, n: int) -> bool:
-        # round() 方法返回浮点数x的四舍五入值。
-        # math.log() 方法返回x的自然对数，x > 0
+        # round(x) 方法返回浮点数x的四舍五入值。
+        # math.log(x) 方法返回x的自然对数，x > 0
         return n > 0 and 3 ** round(math.log(n, 3)) == n
 # @lc code=end
 
