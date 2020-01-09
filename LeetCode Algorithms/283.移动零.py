@@ -14,8 +14,9 @@ class Solution:
         """
         left, right = 0, 0
         while right < len(nums):
-            """
-                
+            """ 
+                算法思路：
+                left永远指向第一个为0的位置，right逢0加一后移一位，直到碰到下一个不为0的数，跟nums[left]交换，然后left，right同时加一，重复操作
             """
             if nums[left] != 0 and nums[right] != 0:
                 left += 1; right += 1; continue
