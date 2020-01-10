@@ -10,6 +10,7 @@ class Solution:
         """
         Do not return anything, modify s in-place instead.
         """
+        # reverse() 函数用于反向列表中元素。
         return s.reverse()
 # @lc code=end
 
