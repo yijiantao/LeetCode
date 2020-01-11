@@ -24,6 +24,7 @@ class Solution:
             tmp = head
             while count and tmp:
                 print (tmp)
+                quit()
                 stack.append(tmp)
                 tmp = tmp.next
                 count -= 1
