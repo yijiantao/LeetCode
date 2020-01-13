@@ -17,6 +17,8 @@ class Solution:
         # 埃氏筛选法，把不大于根号n的所有质数的倍数都排除
         for _index in range(2, int(n ** 0.5) + 1):
             if isPrime[_index]:
-                isPrime[_index * _index: ]
+                isPrime[_index * _index: n : _index] = [0] * ((n - 1 - _index * _index) // _index + 1)
+
+        return sum(isPrime)
 # @lc code=end
 
