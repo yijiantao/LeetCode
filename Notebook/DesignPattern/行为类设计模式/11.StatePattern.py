@@ -1,4 +1,4 @@
-# -*- coding: UTf-8 -*- 
+# -*- coding: UTf-8 -*-
 """
     一、定义：
         状态模式的定义如下：当一个对象内在状态改变时允许其改变行为，这个对象看起来像改变了其类。
@@ -17,75 +17,101 @@
         如果把状态抽象成一个类，每个状态为一个子类，每个状态实现什么操作，不实现什么操作，仅仅在这个类中具体实现就可以了。
 """
 
+
 class LiftState:    # 先实现抽象的状态类：
     def open(self):
         pass
+
     def close(self):
         pass
+
     def run(self):
         pass
+
     def stop(self):
         pass
+
 
 class OpenState(LiftState):    # 然后实现各个具体的状态类：
     def open(self):
-        print ("OPEN:The door is opened...")
-        return self
-    def close(self):
-        print ("OPEN:The door start to close...")
-        print ("OPEN:The door is closed")
-        return StopState()
-    def run(self):
-        print ("OPEN:Run Forbidden.")
-        return self
-    def stop(self):
-        print ("OPEN:Stop Forbidden.")
-        return self
-class RunState(LiftState):
-    def open(self):
-        print ("RUN:Open Forbidden.")
-        return self
-    def close(self):
-        print ("RUN:Close Forbidden.")
-        return self
-    def run(self):
-        print ("RUN:The lift is running...")
-        return self
-    def stop(self):
-        print ("RUN:The lift start to stop...")
-        print ("RUN:The lift stopped...")
-        return StopState()
-class StopState(LiftState):
-    def open(self):
-        print ("STOP:The door is opening...")
-        print ("STOP:The door is opened...")
-        return OpenState()
-    def close(self):
-        print ("STOP:Close Forbidden")
-        return self
-    def run(self):
-        print ("STOP:The lift start to run...")
-        return RunState()
-    def stop(self):
-        print ("STOP:The lift is stopped.")
+        print("OPEN:The door is opened...")
         return self
 
+    def close(self):
+        print("OPEN:The door start to close...")
+        print("OPEN:The door is closed")
+        return StopState()
+
+    def run(self):
+        print("OPEN:Run Forbidden.")
+        return self
+
+    def stop(self):
+        print("OPEN:Stop Forbidden.")
+        return self
+
+
+class RunState(LiftState):
+    def open(self):
+        print("RUN:Open Forbidden.")
+        return self
+
+    def close(self):
+        print("RUN:Close Forbidden.")
+        return self
+
+    def run(self):
+        print("RUN:The lift is running...")
+        return self
+
+    def stop(self):
+        print("RUN:The lift start to stop...")
+        print("RUN:The lift stopped...")
+        return StopState()
+
+
+class StopState(LiftState):
+    def open(self):
+        print("STOP:The door is opening...")
+        print("STOP:The door is opened...")
+        return OpenState()
+
+    def close(self):
+        print("STOP:Close Forbidden")
+        return self
+
+    def run(self):
+        print("STOP:The lift start to run...")
+        return RunState()
+
+    def stop(self):
+        print("STOP:The lift is stopped.")
+        return self
+
+
 class Context:    # 为在业务中调度状态转移，还需要将上下文进行记录，需要一个上下文的类。
-    lift_state=""
+    lift_state = ""
+
     def getState(self):
         return self.lift_state
-    def setState(self,lift_state):
-        self.lift_state=lift_state
+
+    def setState(self, lift_state):
+        self.lift_state = lift_state
+
     def open(self):
         self.setState(self.lift_state.open())
+
     def close(self):
         self.setState(self.lift_state.close())
+
     def run(self):
         self.setState(self.lift_state.run())
+
     def stop(self):
         self.setState(self.lift_state.stop())
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     """
         业务场景：
             这样，在进行电梯的调度时，只需要调度Context就可以了。业务逻辑中如下所示：
