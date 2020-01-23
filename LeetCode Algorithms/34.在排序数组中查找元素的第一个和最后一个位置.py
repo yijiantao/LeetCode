@@ -7,7 +7,7 @@
 # @lc code=start
 class Solution:
     # def searchRange(self, nums: List[int], target: int) -> List[int]:
-    def binaraySearch(self, nums, target, left):
+    def binarySearch(self, nums, target, left):
         begin_index, end_index = 0, len(nums)
         while begin_index < end_index:
             mid_index = (begin_index + end_index) // 2
@@ -31,12 +31,12 @@ class Solution:
         return local_res
         """
         # 方法二：二分查找 - 算法时间复杂度是 O(log n) 级别
-        left_index = self.binaraySearch(nums, target, True)
+        left_index = self.binarySearch(nums, target, True)
 
         if left_index == len(nums) or nums[left_index] != target:
             return [-1, -1]
 
-        return [left_index, self.binaraySearch(nums, target, False) - 1]
+        return [left_index, self.binarySearch(nums, target, False) - 1]
 # @lc code=end
 
 # print (Solution.searchRange(nums = [1, 3], target = 1))
