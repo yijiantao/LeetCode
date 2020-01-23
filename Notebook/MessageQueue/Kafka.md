@@ -41,10 +41,57 @@
 
 # Kafka版本
 
+> 应该选择哪种Kafka？
+>> - **Apache Kafka：** 也称社区版 Kafka。优势在于迭代速度快，社区响应度高，使用它可以让你有更高的把控度；缺陷在于仅提供基础核心组件，缺失一些高级的特性。Apache Kafka是开发者人数最多、版本迭代速度最快的Kafka。如果你仅仅需要一个消息引擎系统抑或是简单的流处理应用场景，同时需要对系统有较大把控度，那么我推荐你使用Apache Kafka。
+>> - **Confluent Kafka：** 目前分为免费版和企业版两种。企业版提供了很多功能，最有用的当属跨数据中心备份和集群监控。如果你需要用到Kafka的一些高级特性，那么推荐你是用Confluent Kafka。Confluent 公司提供的 Kafka。优势在于集成了很多高级特性且由 Kafka 原班人马打造，质量上有保证；缺陷在于相关文档资料不全，普及率较低，没有太多可供参考的范例。
+>> - **CDH/HDP Kafka：** 如果你需要快速地搭建消息引擎系统，或者你需要搭建的是多框架构成的数据平台且Kafka只是其中一个组件，那么推荐你使用这些大数据云公司提供的Kafka。大数据云公司提供的 Kafka，内嵌 Apache Kafka。优势在于操作简单，节省运维成本；缺陷在于把控度低，演进速度较慢。
+
 # 生产环境中Kafka集群部署方案
+如果考虑操作系统与 Kafka 的适配性，Linux 系统显然要比其他两个特别是 Windows 系统更加适合部署 Kafka。虽然这个结论可能你不感到意外，但其中具体的原因你也一定要了解。主要是在下面这三个方面上，Linux 的表现更胜一筹。
+I/O 模型的使用
+数据网络传输效率
+社区支持度
+我分别来解释一下，首先来看 I/O 模型。什么是 I/O 模型呢？你可以近似地认为 I/O 模型就是操作系统执行 I/O 指令的方法。
+主流的 I/O 模型通常有 5 种类型：阻塞式 I/O、非阻塞式 I/O、I/O 多路复用、信号驱动 I/O 和异步 I/O。每种 I/O 模型都有各自典型的使用场景，比如 Java 中 Socket 对象的阻塞模式和非阻塞模式就对应于前两种模型；而 Linux 中的系统调用 select 函数就属于 I/O 多路复用模型；大名鼎鼎的 epoll 系统调用则介于第三种和第四种模型之间；至于第五种模型，其实很少有 Linux 系统支持，反而是 Windows 系统提供了一个叫 IOCP 线程模型属于这一种。
+
+说了这么多，I/O 模型与 Kafka 的关系又是什么呢？实际上 Kafka 客户端底层使用了 Java 的 selector，selector 在 Linux 上的实现机制是 epoll，而在 Windows 平台上的实现机制是 select。因此在这一点上将 Kafka 部署在 Linux 上是有优势的，因为能够获得更高效的 I/O 性能。
+
+|  因素  |  考量点  |  建议  |
+|:-:|:-:|:-:|
+|  操作系统|  操作系统I/O模型|将Kafka部署在Linux系统上|
+|  磁盘|  磁盘I/O性能|  普通环境使用机械硬盘，不需要搭建RAID|
+|  磁盘容量  |  根据消息数，留存时间预估磁盘容量  |  实际使用中，<br>建议预留20% ~ 30%的磁盘空间|
+|  带宽  |  根据实际带宽资源和业务SLA预估服务器数量  |  对于千兆网络，建议每台服务器按照700Mbps来计算，避免大流量下的丢包。|
 
 # 最重要的集群参数
 ## 如何配置Broker端参数
 
+> Broker端参数
+>> - 与存储信息相关的参数：'log.dirs'和'log.dir'。
+>> - 与Zookeeper相关的参数：'zookeeper.connect'。
+>> - 与Broker连接数相关的参数：'listeners'、'advertised.listeners'和'host.name/port'。
+>> - 关于Topic管理的参数：'auto.create.topics.enable'、'unclean.leader.election.enable'和'auto.leader.rebalance.enable'。
+>> - 关于数据留存的参数：'log.retention.{hours|minutes|ms}'、'log.retention.bytes'和'message.max.bytes'.
+
+
+再次强调一下，今天我和你分享的所有参数都是那些要修改默认值的参数，因为它们的默认值不适合一般的生产环境。当然，我并不是说其他 100 多个参数就不重要。事实上，在专栏的后面我们还会陆续提到其他的一些参数，特别是那些和性能息息相关的参数。所以今天我提到的所有参数，我希望作为一个最佳实践给到你，可以有的放矢地帮助你规划和调整你的 Kafka 生产环境。
+
+
 ## 如何配置Topic、JVM和操作系统参数
+
+> Topic级别参数
+>> - 'retention.ms'：规定了该Topic消息被保存的时长。'retention.bytes'：规定了要为该Topic预留多大的磁盘空间。
+>> - 'max.message.bytes'：它决定了Kafka Broker能够正常接收该Topic的最大消息大小。
+
+> JVM参数
+>> - 'KAFKA_HEAP_OPTS'：指定堆大小。
+>> - 'KAFKA_JVM_PERFORMANCE_OPTS'：指定GC参数。
+
+> 操作系统参数
+>> - 文件描述符限制。
+>> - 文件系统类型。
+>> - Swappiness.
+>> - 提交时间。
+
+今天我和你分享了关于 Kafka 集群设置的各类配置，包括 Topic 级别参数、JVM 参数以及操作系统参数，连同上一篇一起构成了完整的 Kafka 参数配置列表。我希望这些最佳实践能够在你搭建 Kafka 集群时助你一臂之力，但切记配置因环境而异，一定要结合自身业务需要以及具体的测试来验证它们的有效性。
 
