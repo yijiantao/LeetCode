@@ -9,7 +9,8 @@ class Solution:
     # def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
     @classmethod
     def combinationSum2(self, candidates, target):
-        return sorted(candidates)
+        candidates = sorted(candidates)
+        
         
 # @lc code=end
 
