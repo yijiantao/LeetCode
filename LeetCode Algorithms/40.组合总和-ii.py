@@ -10,7 +10,8 @@ class Solution:
     @classmethod
     def combinationSum2(self, candidates, target):
         candidates = sorted(candidates)
-        
+        for _index in candidates:
+            print (candidates)
         
 # @lc code=end
 
