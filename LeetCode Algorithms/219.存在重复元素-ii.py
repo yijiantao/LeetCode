@@ -12,13 +12,9 @@ class Solution:
         # 运用字典 - 哈希表来解题
         check_dict = {}
         for _index, _value in enumerate(nums):
-            if _value not in check_dict.keys():
-                check_dict[_value] = _index
-            else:
-                if (_index - check_dict[_value]) <= k:
+            if _value in check_dict.keys() and (_index - check_dict[_value]) <= k:
                     return True
-                else: check_dict[_value] = _index
-        print(check_dict)
+            else: check_dict[_value] = _index
         return False
 
 # @lc code=end
