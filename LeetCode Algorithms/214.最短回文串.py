@@ -17,6 +17,9 @@ class Solution:
         #     if isHuiWen(r[:_index] + s): return r[:_index] + s
 
         # 方法二、KMP算法
+        def get_PMT_table(p):    # 生成 Partial Match Table 部分匹配表
+            i, j, next_arr[0] = 0, -1, -1
+
 
 # @lc code=end
 
