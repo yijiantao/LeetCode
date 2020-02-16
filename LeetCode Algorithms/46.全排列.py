@@ -8,6 +8,11 @@
 import itertools
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
-        return list(itertools.permutations(nums))
+        # 方法一：itertools库函数方法
+        # return list(itertools.permutations(nums))
+
+        # 方法二：回溯法
+
+
 # @lc code=end
 
