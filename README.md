@@ -2,7 +2,7 @@
 
 &emsp;&emsp;在浩瀚无垠的编程之海面前，~~感觉~~ 自己就像一个在海边玩耍的孩子，时不时为拾到比通常更光滑的石子或更美丽的贝壳而欢欣鼓舞。
 
-> Think BIG / Start Small / Move Fast
+> Think BIG / Start Small / Move Fast <br>
 > 想得长远 / 快速切入 / 持续演进
 
 ## 更新中
