@@ -14,7 +14,7 @@ class MaxQueue:
 
 
 # Your MaxQueue object will be instantiated and called as such:
-obj = MaxQueue()
-param_1 = obj.max_value()
-obj.push_back(value)
-param_3 = obj.pop_front()
+# obj = MaxQueue()
+# param_1 = obj.max_value()
+# obj.push_back(value)
+# param_3 = obj.pop_front()
