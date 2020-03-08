@@ -22,7 +22,7 @@ class Solution:
                     res = min(res, count)
 
                 for _i in range(_index, len_coins):
-                    if coins[_i] <= target < coins[_i] * (res - count):  # 剪枝
+                    if coins[_i] <= target < coins[_i] * (res - count):  # 剪枝:目标值一定是要大于等于我们将要放入的硬币面额，而且本次使用的硬币数量一定要比上次少。
                         countCoins(_i, target - coins[_i], count + 1)
 
             for _index in range(len_coins):
