@@ -33,8 +33,8 @@ int main( )
         maxprofit = max(maxprofit, price - minprice);
         minprice = min(price, minprice);
     }
-    // Solution s;
-    // int max_profit = s.maxProfit(prices);
-    // cout<<max_profit<<endl;
+    Solution s;
+    int max_profit = s.maxProfit(prices);
+    cout<<max_profit<<endl;
     return 0;
 }
