@@ -5,15 +5,14 @@
  */
 
 // @lc code=start
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
- * };
- */
+
+// Definition for a binary tree node.
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
 class Solution {
     int res;
     int dfs(TreeNode* node){
@@ -34,6 +33,7 @@ public:
 
 int main(int argc, char const *argv[])
 {
-    /* code */
+    Solution s;
+    co
     return 0;
 }
