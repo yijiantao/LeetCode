@@ -5,6 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
+*.exe
 
 # Mac OS
 .DS_Store
@@ -21,6 +22,7 @@ __pycache__/
 
 # vscode
 .vscode
+.code-workspace
 
 # jupyter
 .ipynb_checkpoints
