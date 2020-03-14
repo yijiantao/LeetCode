@@ -38,8 +38,8 @@ public:
                 //     }
                 // }
                 /* 优化：二分查找O(logn)， 上面写法是 O(n*n)*/
-                int pos = binary_search(nums[i], st);
-                st[pos] = nums[i];
+                int pos = binary_search(nums[_index], stack_arr);
+                stack_arr[pos] = nums[_index];
             }
         }
         return stack_arr.size();
