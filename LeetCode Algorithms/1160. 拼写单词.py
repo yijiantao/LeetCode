@@ -12,7 +12,8 @@ class Solution:
                 if chars_dict[c] < word_dict[c]:
                     break
             else:
-                # 如果 if chars_dict[c] < word_dict[c] 条件成立，则 break 跳出for循环
+                # 如果 if chars_dict[c] < word_dict[c] 条件成立，则 break 跳出for循环，不进入else判断执行else里面语句；
+                # for - else 只有当for循环正常结束时（非break跳出时）才执行 else里面的语句内容。
                 res += len(word)
         return res
 
