@@ -159,7 +159,7 @@ int& sum()    // 返回引用类型的函数
 
     // 函数中的局部变量会被内存回收
     // 所谓的内存回收，并不是把内存保存的设置清零
-    // 而是指内存中你的程序申请的这块内存已经不是这个变量了！
+    // 而是指内存中你的程序申请的这块内存已经不是这个变量了，会被覆盖的！
     return rNum; // 返回了一个局部的引用类型变量 （禁止！绝对不要返回局部变量的引用！）
 }
 void test()
@@ -200,10 +200,49 @@ int main()
       - 数据对象是类对象时，要求使用引用。
 
 ### 默认参数
-&emsp;&emsp;
+&emsp;&emsp;在函数声明时默认赋初始值，如下：
+#### **使用默认参数注意：** 
+- 1、默认值可以在函数原型**或者** 定义中给出，**不能在这两个位置同时出现！** 
+- 2、对于带参数列表的函数，必须**从右向左** 添加默认值。
+    void test1(int a, int b = 5, int c = 10);    // 正确! test1(1); | test1(1, 2);
+    void test2(int a, int b = 5, int c);        // 错误！ 默认参数后的参数int c也必须有默认值！
+    void test3(int a = 1, int b = 5, int c = 10); // 正确！ test3(); | test3(1); | test3(1, 2);
+
+```C
+void sample(int = 100);
+int main()
+{
+    sample();
+    sample(123);
+    return 0;
+}
+
+void sample(int num)
+{
+  cout << num << endl;
+}
+```
 
 ### 函数重载（重点）
-&emsp;&emsp;
+&emsp;&emsp;函数重载（overloading）:1、指可以有多个同名的函数；2、函数名相同，参数列表不同（特征标不同）。
+#### **函数重载注意：** 
+- 1、从编译器的角度看，Swap(int)和Swap(int&)的特征标是相同的，调用时都可以写作：Swap(123)，为避免混乱，编译器把类型引用和类型本身视为同一个特征标。
+- 2、调用匹配函数时，不区分const和非const变量。
+
+其中：特征标，重载-编译器在编译时，根据参数列表对函数进行重命名，如下：
+```C
+void Swap(int a, int b);
+根据特征标，编译器会重命名函数为：Swap_int_int
+
+void Swap(float a, float b);
+根据特征标，编译器会重命名函数为：Swap_float_float
+
+有歧义时，编译器【重载决议】，来决定调用不同的函数：Swap_int_int
+void Swap(int& a, int& b)
+根据特征标，编译器会重命名函数为：Swap_int_int
+
+```
+
 
 ### 函数模板（难点）
 &emsp;&emsp;
