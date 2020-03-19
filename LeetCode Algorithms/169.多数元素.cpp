@@ -19,6 +19,8 @@ public:
             if (count_nums_dict.count(_value) == 0) count_nums_dict[_value] = 0;
             count_nums_dict[_value] += 1;
         }
+        // for (auto p: count_nums_dict)
+        //    int _v = p.second;
         for (map<int, int>::iterator iter=count_nums_dict.begin(); iter != count_nums_dict.end(); iter++){
             if (iter->second > max_count){
                 res = iter->first;
