@@ -38,3 +38,13 @@ gitk    // 查看分支信息
 ### 1、怎样把连续的多个commit整理成一个？
 
 ### 1、怎样把间隔的几个commit整理成一个？
+
+
+## 如何挑选合适的分支集成策略？
+### 主干分支
+- squash merging
+
+- rebase merging
+
+### 特性开发分支
+    pass
