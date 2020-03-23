@@ -48,3 +48,17 @@ gitk    // 查看分支信息
 
 ### 特性开发分支
     pass
+
+
+
+## 常用命令
+```C
+git init [project_name]
+
+git remote add origin git@github.com:[your_github_id_name]/[project_name].git
+
+git pull --rebase origin master  # 这段命令,会在本地生成一个README.md文件并将 远端代码pull 下来.
+
+git push -u origin master 上传代码
+
+```
