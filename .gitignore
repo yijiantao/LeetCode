@@ -28,5 +28,3 @@ __pycache__/
 
 # jupyter
 .ipynb_checkpoints
-
-cpp_test
