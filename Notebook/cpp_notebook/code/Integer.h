@@ -11,6 +11,11 @@ class Integer
 
         // 重载+运算符
         Integer operator+(Integer other);
+        // 重载-运算符
+        const Integer operator-(const Integer & other) const;
+
+        // 重载赋值运算符 需要用const修饰函数
+        const Integer & operator=(const Integer & other);
 
         //返回值输出
         int IntValue(){return _value;}

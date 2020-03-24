@@ -11,6 +11,20 @@ Integer Integer::operator+(Integer other){
     return result;
 }
 
+// 重载-运算符
+const Integer Integer::operator-(const Integer & other) const{
+    return Integer(this->_value - other._value);
+}
+
+// 重载赋值运算符
+const Integer & Integer::operator=(const Integer & other) {
+    // 条款11：如果是自我赋值，就不要做任何事情， 更加有效率
+    // int4 = int4;
+    if (this == &other) return *this;    // 证同测试
+    this->_value = other._value;
+    return *this;
+}
+
 Integer::~Integer()
 {
 
