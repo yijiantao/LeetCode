@@ -22,4 +22,14 @@ void TestInteger(){
     Integer int4;
     int4 = int3;
     cout << "int4: " << int4.IntValue() << endl;
+
+    // 友元函数重载*运算符
+    Integer int5 = 10 * int4;
+    cout << "int5 = " << int5.IntValue() << endl;
+
+    cout << "重载了<<运算符后，可以直接打印对象：int5 = " << int5 << endl;
+
+    Integer int6;
+    cin >> int6;
+    cout << "输入的int6为：" << int6 << endl;
 }
