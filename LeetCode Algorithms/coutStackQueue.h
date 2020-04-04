@@ -53,9 +53,10 @@ const Container& container
     return HackedQueue::container(queue);
 }
  
-template < 
-    class Type, 
-    template <class Type, class Container = std::deque<Type> > class Adapter, class Stream
+template
+    < class Type
+    , template <class Type, class Container = std::deque<Type> > class Adapter
+    , class Stream
     >
 Stream& operator<<
     (Stream& outputstream, const Adapter<Type>& adapter)
