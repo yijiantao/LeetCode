@@ -12,6 +12,7 @@ public:
         int n1 = word1.size();
         int n2 = word2.size();
         
+        // 初始化 dp大小！！！
         vector<vector<int>> dp(n1+1, vector<int>(n2 +1, 0));
         // 第一行
         for (int j = 1; j < n2 + 1; ++j)
