@@ -18,7 +18,7 @@ public:
     }
 
     void dfs(int cur_x, int cur_y, int m, int n, int k, vector<vector<int>>& vis) {
-        if (cur_x >= m || cur_y >= n || cur_x < 0 || cur_y < 0 || !checkSum(cur_x, cur_y, k) || vis[cur_x][cur_y] == 1) return ;    // 剪枝
+        if (cur_x >= m || cur_y >= n || cur_x < 0 || cur_y < 0 || !checkSum(cur_x, cur_y, k) || vis[cur_x][cur_y] == 1) return ;    // 剪枝  边界判断
         res ++;
         vis[cur_x][cur_y] = 1;
         dfs(cur_x + 1, cur_y, m, n, k, vis);
