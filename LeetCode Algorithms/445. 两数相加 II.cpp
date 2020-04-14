@@ -23,7 +23,7 @@ public:
             l2 = l2->next;
         }
         int mark_flag = 0;
-        for (!s_1.empty() or !s_2.empty() or mark_flag != 0) {
+        while (!s_1.empty() or !s_2.empty() or mark_flag != 0) {
             int s_1_v = s_1.empty() ? 0 : s_1.top();
             if (!s_1.empty()) s_1.pop();
 
