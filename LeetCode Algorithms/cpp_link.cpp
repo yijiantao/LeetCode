@@ -15,53 +15,27 @@ class Solution {
     };
 
 public:
-    ListNode* endCreatLink(ListNode* l1, ListNode* l2) {
+    ListNode* endCreatLink(vector<int> &nums) {
         /* 尾插法 */
-        string s_1 = "", s_2 = "";
         ListNode *res_link, *head;
         res_link = head = new ListNode(0);
         head -> next = res_link;
-        while (l1) {
-            s_1 += to_string(l1->val);
-            l1 = l1->next;
-        }
-        while (l2) {
-            s_2 += to_string(l2->val);
-            l2 = l2->next;
-        }
-        int res_num = stoi(s_1) + stoi(s_2);
-        for (auto _v: to_string(res_num)) {
+
+        for (auto _v: nums) {
             // cout << _v << " " << typeid(_v).name() << endl;
-            auto curnode = new ListNode(_v - '0');
+            auto curnode = new ListNode(_v);
             head -> next = curnode;
             head = head -> next;
         }
         return res_link->next;
     }
 
-    ListNode* headCreatLink(ListNode* l1, ListNode* l2) {
+    ListNode* headCreatLink(vector<int> &nums) {
         /* 头插法 */
-        stack<int> s_1, s_2;
+        
         ListNode* res_link = nullptr;
-        while (l1) {
-            s_1.push(l1->val);
-            l1 = l1->next;
-        }
-        while (l2) {
-            s_2.push(l2->val);
-            l2 = l2->next;
-        }
-        int mark_flag = 0;
-        while (!s_1.empty() or !s_2.empty() or mark_flag != 0) {
-            int s_1_v = s_1.empty() ? 0 : s_1.top();
-            if (!s_1.empty()) s_1.pop();
-
-            int s_2_v = s_2.empty() ? 0 : s_2.top();
-            if (!s_2.empty()) s_2.pop();
-            int cur_value = s_1_v + s_2_v + mark_flag;
-            mark_flag = cur_value / 10;
-            cur_value %= 10;
-            auto curnode = new ListNode(cur_value);
+        for (auto _v: nums) {
+            auto curnode = new ListNode(_v);
             curnode -> next = res_link;
             res_link = curnode;
         }
@@ -71,6 +45,21 @@ public:
 
 int main(int argc, char const *argv[])
 {
-    /* code */
+
+    // string to int && int to string
+    int n = 123;
+    char *char_n = "abcd";
+    char char_n_2[] = "abcd";
+
+    string string_n = to_string(n);
+    int int_s = stoi(string_n);
+
+    int int_s_2 = atoi(char_n_2);
+    cout << int_s << " " << typeid(int_s).name() << endl;
+    cout << int_s_2 << " " << typeid(int_s_2).name() << endl;
+    // vector<int> nums = {1, 2, 3, 4, 5};
+    // for (auto _v: nums) 
+    //     // 插入到链表中
+    //     cout << _v << endl;
     return 0;
 }
