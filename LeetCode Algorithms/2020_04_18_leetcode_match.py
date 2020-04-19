@@ -47,3 +47,4 @@ if __name__ == "__main__":
     requirements = [[0,0,0]]
     # print (Solution.processQueries(n, relation, k))
     print (Solution.getTriggerTime(increase, requirements))
+    
