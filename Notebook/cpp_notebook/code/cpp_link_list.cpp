@@ -67,6 +67,7 @@ int main(int argc, char const *argv[])
     cout << int_s_2 << " " << typeid(int_s_2).name() << endl;
     */
 
+    //  链表 插入操作
     vector<int> nums = {1, 2, 3, 4, 5};
     cout << "待插入链表数据：";
     for (auto _v: nums)  cout << _v << endl;
