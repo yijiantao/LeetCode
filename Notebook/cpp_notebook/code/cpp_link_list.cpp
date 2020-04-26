@@ -5,14 +5,13 @@ using namespace std;
  * 头插法、尾插法;
 */
 
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode(int x) : val(x), next(NULL) {}
+};
 
 class Solution {
-
-    struct ListNode {
-        int val;
-        ListNode *next;
-        ListNode(int x) : val(x), next(NULL) {}
-    };
 
 public:
     ListNode* endCreatLink(vector<int> &nums) {
@@ -41,11 +40,20 @@ public:
         }
         return res_link;
     }
+
+    void printfLinkList(ListNode* head) {
+        ListNode* ptr_head = head;
+        while (ptr_head) {
+            cout << ptr_head->val << " ";
+            ptr_head = ptr_head->next;
+        }
+        return ;
+    }
 };
 
 int main(int argc, char const *argv[])
 {
-
+    /* int <---> char <---> string 互转
     // string to int && int to string
     int n = 123;
     char *char_n = "abcd";
@@ -57,9 +65,17 @@ int main(int argc, char const *argv[])
     int int_s_2 = atoi(char_n_2);
     cout << int_s << " " << typeid(int_s).name() << endl;
     cout << int_s_2 << " " << typeid(int_s_2).name() << endl;
-    // vector<int> nums = {1, 2, 3, 4, 5};
-    // for (auto _v: nums) 
-    //     // 插入到链表中
-    //     cout << _v << endl;
+    */
+
+    vector<int> nums = {1, 2, 3, 4, 5};
+    cout << "待插入链表数据：";
+    for (auto _v: nums)  cout << _v << endl;
+
+    Solution s;
+    cout << "头插法：";
+    s.printfLinkList(s.headCreatLink(nums));
+
+    cout << "尾插法：";
+    s.printfLinkList(s.endCreatLink(nums));
     return 0;
 }
