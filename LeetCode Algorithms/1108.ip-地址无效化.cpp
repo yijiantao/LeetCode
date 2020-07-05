@@ -9,7 +9,10 @@ class Solution {
 public:
     string defangIPaddr(string address) {
         string res;
-        
+        for (auto _c: address) {
+            if (_c == '.') res += "[.]";
+            else res += _c;
+        }
         return res;
     }
 };
