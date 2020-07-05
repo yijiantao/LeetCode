@@ -10,7 +10,7 @@ public:
     string defangIPaddr(string address) {
         string res;
         for (auto _c: address) {
-            if (_c == '.') res += "[.]";
+            if (_c == '.') res += "[.]";    // string += 往字符串后追加和python一样，，，
             else res += _c;
         }
         return res;
