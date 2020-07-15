@@ -12,7 +12,11 @@ public:
         sort(nums2.begin(), nums2.end());
         vector<int> res;
         // 方法一：STL 求交函数
-        set_intersection(nums1.begin(), nums1.end(), nums2.begin(), nums2.end(), inserter(res, res.begin()));
+        // set_intersection(nums1.begin(), nums1.end(), nums2.begin(), nums2.end(), inserter(res, res.begin()));
+
+        // 方法二： 双指针
+
+        
         return res;
     }
 };
