@@ -1,6 +1,18 @@
 # cpp实战笔记
 
 ## cpp http应用
+
+### 数据序列化
+
+#### JSON
+[待续]
+
+#### MessagePack
+[待续]
+
+#### ProtoBuffer
+[待续]
+
 ### 服务端应用 - ZMQ
 
 ### 客户端应用 - cpr
