@@ -8,6 +8,7 @@
 class Solution {
 public:
     int findMin(vector<int>& nums) {
+        // 
         int res = nums[0];
         for (int _index = 1; _index < nums.size(); ++_index) 
             if (nums[_index-1] > nums[_index]) return nums[_index];
