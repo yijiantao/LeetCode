@@ -5,6 +5,8 @@
  */
 
 // @lc code=start
+#include<bits/stdc++.h>
+
 class Solution {
 public:
     bool isSubsequence(string s, string t) {
@@ -20,8 +22,17 @@ public:
             else test_s.push(temp_s);
             
         }
-        return test_s.empty();
+        return test_s.size() == 0;
     }
 };
 // @lc code=end
+
+int main(int argc, char const *argv[])
+{
+    Solution s;
+    std::string s = "abc";
+    std::string t = "ahbgdc";
+    std::cout << s.isSubsequence(s, t) << std::endl;
+    return 0;
+}
 
