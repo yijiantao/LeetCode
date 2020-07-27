@@ -7,10 +7,12 @@
 // @lc code=start
 #include<bits/stdc++.h>
 
+using namespace std;
+
 class Solution {
 public:
     bool isSubsequence(string s, string t) {
-        stack<char> test_s;
+        std::stack<char> test_s;
         for (int _index = s.size() - 1; _index >= 0; --_index)
             test_s.push(s[_index]);
         
@@ -22,17 +24,16 @@ public:
             else test_s.push(temp_s);
             
         }
-        return test_s.size() == 0;
+        return test_s.empty();
     }
 };
 // @lc code=end
 
 int main(int argc, char const *argv[])
 {
-    Solution s;
-    std::string s = "abc";
-    std::string t = "ahbgdc";
-    std::cout << s.isSubsequence(s, t) << std::endl;
+    Solution test;
+    std::string s = "axc", t = "ahbgdc";
+    std::cout << test.isSubsequence(s, t) << std::endl;
     return 0;
 }
 
