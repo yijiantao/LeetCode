@@ -8,7 +8,9 @@
 class Solution {
 public:
     string getHint(string secret, string guess) {
-        
+        string res;
+
+        return res;
     }
 };
 // @lc code=end
