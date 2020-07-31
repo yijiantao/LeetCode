@@ -9,7 +9,8 @@ class Solution {
 public:
     vector<int> findSubstring(string s, vector<string>& words) {
         vector<int> res;
-        
+        for (auto _c: words):
+            cout << _c << endl;
         return res;
     }
 };
