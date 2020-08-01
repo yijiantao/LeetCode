@@ -193,4 +193,13 @@ select，poll，epoll：
 
 ## Nginx content阶段:precontent阶段的mirror模块(实时拷贝流量)
 
+## Nginx变量的运行原理
+<p align="center"><img width="300" src="./static/Ngx变量的运行与加载使用.png"></p>
+
+[https://time.geekbang.org/course/detail/100020301-72413](https://time.geekbang.org/course/detail/100020301-72413)
+
+- **惰性求值:** 使用变量时，只有当接收到http请求时，当变量处于Ngx处理的11个阶段的时候，过滤阶段或者过滤模块开始去读取的时候，才会去取值；
+- 变量值可以时刻变化，其值为使用的那一时刻的值;(惰性求值的副作用)
+
+
 
