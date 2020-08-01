@@ -174,3 +174,19 @@ select，poll，epoll：
 ## Nginx 的并发处理能力
 
 - 关于 Nginx 的并发处理能力：并发连接数，一般优化后，峰值能保持在 1~3w 左右。（内存和 CPU 核心数不同，会有进一步优化空间）
+
+
+## Nginx rewrite阶段
+
+### return指令
+- 直接重定向 （永久重定向/临时重定向）;
+- error_page页面的指定;
+
+### 条件判断指令
+- if ()
+
+## Nginx find_config阶段
+<p align="center"><img width="300" src="./static/ngx_location匹配顺序.png"></p>
+
+
+## Nginx preaccess阶段:对连接数做限制的limit_conn模块
