@@ -24,6 +24,9 @@ public:
         {
             if (tmp_root->left) {
                 tmp_root;
+                if (tmp_root) {
+                    
+                }
             }
         }
         
