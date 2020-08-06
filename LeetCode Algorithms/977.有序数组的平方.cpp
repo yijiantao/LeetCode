@@ -8,6 +8,7 @@
 class Solution {
 public:
     vector<int> sortedSquares(vector<int>& A) {
+        // auto 循环会创建副本，auto 推导会重开地址？
         for (int _index = 0; _index < A.size(); ++_index) 
             A[_index] *= A[_index];
         std::sort(A.begin(), A.end());
