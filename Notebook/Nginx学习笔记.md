@@ -219,6 +219,12 @@ select，poll，epoll：
 加权的意义在于不同的服务器能处理的请求不一样，例如(四核16G)的机器就比(两核8G)的机器处理请求数多，因此可以配置(四核16G)的机器就比(两核8G)的机器权重大；
 
 
+## 分析、监控Nginx
 
+### 使用tcmalloc优化内存分配(treading-cache malloc)
+
+### 使用Google PerfTools分析Nginx
+
+### 使用stub_status模块监控Nginx的状态
 
 
