@@ -7,8 +7,17 @@
 // @lc code=start
 class Solution {
 public:
+    void dfs() {
+
+    }
+
     vector<string> restoreIpAddresses(string s) {
-        return s;
+        vector<string> res;
+        for (int _index = 0; _index < s.size(); ++_index) {
+
+        }
+        dfs([], 0);
+        return res;
     }
 };
 // @lc code=end
