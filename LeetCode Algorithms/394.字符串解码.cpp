@@ -14,6 +14,7 @@ public:
         for (auto _c: s) {
             
         }
+        return res_s;
 
     }
 };
