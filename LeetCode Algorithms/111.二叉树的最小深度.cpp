@@ -17,6 +17,7 @@
 class Solution {
 public:
     int minDepth(TreeNode* root) {
+        // 递归 - 
         if (root == nullptr) return 0;
 
         if (root->left == nullptr && root->right == nullptr) return 1;
