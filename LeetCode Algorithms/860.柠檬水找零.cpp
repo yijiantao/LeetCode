@@ -10,8 +10,12 @@ public:
     bool lemonadeChange(vector<int>& bills) {
         vector<int> res;
         for (auto _v: bills) {
-            if (res.empty() && (_v - 5) == 0) {
-                res.push_back();
+            if (_v == 5) {
+                res.push_back(_v);
+            } else if (_v == 10) {
+
+            } else if (_v == 20) {
+
             }
         }
         return !res.empty();
