@@ -18,10 +18,10 @@ public:
                 nums_5 -= 1;
                 nums_10 += 1;
             } else if (_v == 20) {
-
+                if (nums_5 == 0) return false;
             }
         }
-        return !res.empty();
+        return true;
     }
 };
 // @lc code=end
