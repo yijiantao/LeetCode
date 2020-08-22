@@ -8,12 +8,15 @@
 class Solution {
 public:
     bool lemonadeChange(vector<int>& bills) {
-        vector<int> res;
+        int nums_5 = 0, nums_10 = 0;
         for (auto _v: bills) {
             if (_v == 5) {
-                res.push_back(_v);
+                nums_5 += 1;
+                continue;
             } else if (_v == 10) {
-
+                if (nums_5 == 0) return false;
+                nums_5 -= 1;
+                nums_10 += 1;
             } else if (_v == 20) {
 
             }
