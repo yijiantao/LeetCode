@@ -8,9 +8,9 @@
 class Solution {
 public:
     int rangeBitwiseAnd(int m, int n) {
-        int mask = 1 << 30;
+        int mask = 1 << 30;    // 获取最高位
         int ans = 0;
-        while (mask > 0 && (m&mask) == (n&mask)) {
+        while (mask > 0 && (m&mask) == (n&mask)) {    // 寻找相同的前缀
             ans |= m & mask;
             mask >>= 1;
         }
