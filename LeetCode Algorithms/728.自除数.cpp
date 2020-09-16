@@ -9,9 +9,11 @@ class Solution {
 public:
 
     bool isDiv(int nums) {
+        int temp_nums = nums;
         while (nums)
         {
-            if ((nums % (nums % 10)) != 0) return false;
+            int div_res = nums % 10;
+            if (div_res == 0 || (temp_nums % div_res) != 0) return false;
             nums /= 10;
         }
         return true;
