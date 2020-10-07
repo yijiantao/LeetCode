@@ -9,11 +9,12 @@
 class Solution {
 public:
     void sortColors(std::vector<int>& nums) {
-        int left_index = 0, right_index = nums.size() - 1;
-        for (int _index = 0; _index <= right_index; ++_index) {
-            if (nums[_index] == 0) std::swap(nums[left_index++], nums[_index]);
-            if (nums[_index] == 2) std::swap(nums[right_index--], nums[_index--]);
-        }
+        // int left_index = 0, right_index = nums.size() - 1;
+        // for (int _index = 0; _index <= right_index; ++_index) {
+        //     if (nums[_index] == 0) std::swap(nums[left_index++], nums[_index]);
+        //     if (nums[_index] == 2) std::swap(nums[right_index--], nums[_index--]);
+        // }
+        std::sort(nums.begin(), nums.end());
     }
 };
 // @lc code=end
