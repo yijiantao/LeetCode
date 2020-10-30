@@ -8,7 +8,7 @@
 class Solution {
 public:
     int islandPerimeter(vector<vector<int>>& grid) {
-
+        cout << ""
     }
 };
 // @lc code=end
