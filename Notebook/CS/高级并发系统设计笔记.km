@@ -1,0 +1,22 @@
+{
+    "root": {
+        "data": {
+            "id": "c6x2jq57gt40",
+            "created": 1604756063367,
+            "text": "高并发系统设计"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c6x2jv3998o0",
+                    "created": 1604756074133,
+                    "text": "缓存"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
