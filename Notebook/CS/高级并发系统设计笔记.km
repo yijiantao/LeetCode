@@ -13,6 +13,89 @@
                     "text": "缓存"
                 },
                 "children": []
+            },
+            {
+                "data": {
+                    "id": "c6x2nam5zo00",
+                    "created": 1604756343021,
+                    "text": "数据库"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "c6x2nfz0cqg0",
+                    "created": 1604756354681,
+                    "text": "分布式服务"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c6x2nu7r38g0",
+                            "created": 1604756385685,
+                            "text": "服务拆分\n微服务架构"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c6x2o1wv94g0",
+                            "created": 1604756402441,
+                            "text": "RPC框架"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c6x2o58wik00",
+                            "created": 1604756409699,
+                            "text": "注册中心与服务治理"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c6x2oahmwcg0",
+                            "created": 1604756421111,
+                            "text": "分布式Trace"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c6x2okwc1dk0",
+                                    "created": 1604756443768,
+                                    "text": "链路追踪"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6x2p2qf0f40",
+                                    "created": 1604756482592,
+                                    "text": "分布式日志requestId与traceId"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6x2pjyahi80",
+                                    "created": 1604756520073,
+                                    "text": "实现方式AOP切面编程\n\n一般来说，切面编程的实现分为两类：\n- 一类是静态代理，典型的代表是 AspectJ，它的特点是在编译期做切面代码注入；\n- 另一类是动态代理，典型的代表是 Spring AOP，它的特点是在运行期做切面代码注入。",
+                                    "font-family": "微软雅黑,Microsoft YaHei"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c6x2r0z2zts0",
+                            "created": 1604756635491,
+                            "text": "负载均衡"
+                        },
+                        "children": []
+                    }
+                ]
             }
         ]
     },
