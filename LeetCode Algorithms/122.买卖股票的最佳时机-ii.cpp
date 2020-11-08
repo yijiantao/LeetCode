@@ -11,7 +11,9 @@ public:
         int ans = 0, tmp = 0;
         for (int _index = 1; _index < prices.size(); ++_index) {
             tmp = prices[_index] - prices[_index - 1];
+            if (tmp > 0) ans += tmp;
         }
+        return tmp;
     }
 };
 // @lc code=end
