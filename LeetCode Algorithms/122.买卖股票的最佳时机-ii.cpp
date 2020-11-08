@@ -13,7 +13,7 @@ public:
             tmp = prices[_index] - prices[_index - 1];
             if (tmp > 0) ans += tmp;
         }
-        return tmp;
+        return ans;
     }
 };
 // @lc code=end
