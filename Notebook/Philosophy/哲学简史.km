@@ -10,7 +10,7 @@
                 "data": {
                     "id": "c71db9r489c0",
                     "created": 1605192672809,
-                    "text": "苏格拉底之前"
+                    "text": "一、苏格拉底之前"
                 },
                 "children": []
             },
@@ -18,15 +18,40 @@
                 "data": {
                     "id": "c71dbc4cfuw0",
                     "created": 1605192677963,
-                    "text": "雅典"
+                    "text": "二、雅典"
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "c71du01dppc0",
+                            "created": 1605194140581,
+                            "text": "苏格拉里"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c71du2wvmag0",
+                            "created": 1605194146839,
+                            "text": "柏拉图"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c71du4os0080",
+                            "created": 1605194150703,
+                            "text": "亚里士多德"
+                        },
+                        "children": []
+                    }
+                ]
             },
             {
                 "data": {
                     "id": "c71dbfvo0k80",
                     "created": 1605192686145,
-                    "text": "希腊"
+                    "text": "三、希腊"
                 },
                 "children": []
             }
