@@ -1,0 +1,38 @@
+{
+    "root": {
+        "data": {
+            "id": "c71da7ghx200",
+            "created": 1605192589450,
+            "text": "西方哲学"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c71db9r489c0",
+                    "created": 1605192672809,
+                    "text": "苏格拉底之前"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "c71dbc4cfuw0",
+                    "created": 1605192677963,
+                    "text": "雅典"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "c71dbfvo0k80",
+                    "created": 1605192686145,
+                    "text": "希腊"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
