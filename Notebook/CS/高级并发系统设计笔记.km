@@ -145,7 +145,24 @@
                             "created": 1605277688743,
                             "text": "降级熔断"
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c727kqwwfuw0",
+                                    "created": 1605278048739,
+                                    "text": "熔断\n（系统雪崩：局部故障引发的全局故障，子系统B响应超时，上游调用方A子系统线程池调用资源一直得不到释放）"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c727ksk58yg0",
+                                    "created": 1605278052321,
+                                    "text": "降级"
+                                },
+                                "children": []
+                            }
+                        ]
                     },
                     {
                         "data": {
@@ -153,7 +170,16 @@
                             "created": 1605277696286,
                             "text": "流量控制"
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c727ko2k8qw0",
+                                    "created": 1605278042551,
+                                    "text": "限流"
+                                },
+                                "children": []
+                            }
+                        ]
                     }
                 ]
             }
