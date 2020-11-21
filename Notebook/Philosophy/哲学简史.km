@@ -12,7 +12,25 @@
                     "created": 1605192672809,
                     "text": "一、苏格拉底之前"
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "c78zoux2ly80",
+                            "created": 1605966721730,
+                            "text": "普罗泰戈拉"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c78zp0stxf40",
+                                    "created": 1605966734535,
+                                    "text": "“人是万物的尺度，是存在的事物存在的尺度，\n也是不存在的事物不存在的尺度。”"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "data": {
