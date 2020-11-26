@@ -13,7 +13,6 @@ public:
 
         string ans(s);
         int index = 0;
-        
         while (s.size() > index)
         {
             for (int i = 0; i < 26; ++i) if (v[i] > 0 && v[i]--) ans[index++] = 'a' + i;
