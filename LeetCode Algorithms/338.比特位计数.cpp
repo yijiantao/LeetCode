@@ -8,7 +8,11 @@
 class Solution {
 public:
     vector<int> countBits(int num) {
-
+        vector<int> res = {};
+        for (int _i = 1; _i <= num; _i++) {
+            res
+        }
+        return res;
     }
 };
 // @lc code=end
