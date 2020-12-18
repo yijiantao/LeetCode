@@ -20,7 +20,7 @@ public:
         
         return t[t.size()-1];
         */
-
+        return [&] {char res =0; for (char& c:s+t) res^=c; return res;} ();
     }
 };
 // @lc code=end
