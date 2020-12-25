@@ -13,8 +13,8 @@ public:
         int child_nums = g.size(), cook_nums = s.size();
         int count =0;
         for (int i = 0, j = 0; i < child_nums && j < cook_nums; i++, j++) {
-            while (j < child_nums && g[i] > s[j]) j++;
-            if (j < child_nums) count ++;
+            while (j < cook_nums && g[i] > s[j]) j++;
+            if (j < cook_nums) count ++;
         }
         return count;
     }
