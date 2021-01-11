@@ -9,6 +9,6 @@ static void recvfrom_int(int signo) {
 
 int main(int argc, char **argv) {
     int socket_fd;
-    
+    string res;
     return 0;
 }
