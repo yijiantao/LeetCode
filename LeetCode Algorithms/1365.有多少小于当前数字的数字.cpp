@@ -8,7 +8,9 @@
 class Solution {
 public:
     vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
-
+        vector<int> res;
+        
+        return res;
     }
 };
 // @lc code=end
