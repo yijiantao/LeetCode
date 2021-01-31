@@ -8,7 +8,9 @@
 class Solution {
 public:
     int maximumWealth(vector<vector<int>>& accounts) {
-
+        int ans = 0;
+        
+        return ans;
     }
 };
 // @lc code=end
