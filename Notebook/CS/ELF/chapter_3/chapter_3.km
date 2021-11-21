@@ -34,9 +34,18 @@
                 "data": {
                     "id": "cfs4zgcp8sw0",
                     "created": 1637160564276,
-                    "text": "3.4、ELF文件结构描述"
+                    "text": "3.4、ELF文件结构描述(readelf指令查看)"
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "cfvkq0kd2oo0",
+                            "created": 1637509642262,
+                            "text": "3.4.1、文件头"
+                        },
+                        "children": []
+                    }
+                ]
             },
             {
                 "data": {
