@@ -53,6 +53,23 @@
                                 "children": []
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "cfwe7bvnuqg0",
+                            "created": 1637592811268,
+                            "text": "3.4.2、段表\nreadelf -S *.o"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cfweb6exb4w0",
+                                    "created": 1637593112829,
+                                    "text": "Elf32_Shdr（段描述符）结构体为元素的数组，数组元素的个数等于段的个数，一个结构体元素对应一个段。\nElf32_Shdr被定义在\"/usr/include/elf.h\"中；"
+                                },
+                                "children": []
+                            }
+                        ]
                     }
                 ]
             },
