@@ -41,9 +41,18 @@
                         "data": {
                             "id": "cfvkq0kd2oo0",
                             "created": 1637509642262,
-                            "text": "3.4.1、文件头"
+                            "text": "3.4.1、文件头\n/usr/include/elf.h"
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cfwdurzev1c0",
+                                    "created": 1637591827589,
+                                    "text": "定义内容：ELF Magic魔数、文件机器字节长度、数据存储方式、版本、运行平台、OS/ABI版本、ELF重定位类型、硬件平台等。"
+                                },
+                                "children": []
+                            }
+                        ]
                     }
                 ]
             },
