@@ -1,0 +1,86 @@
+{
+    "root": {
+        "data": {
+            "id": "cg1akk8a6800",
+            "created": 1638090363523,
+            "text": "第五章·Windows PE/COFF",
+            "note": "在这一章中，我们介绍了Windows 下的可执行文件和目标文件格式 PE/COFF。PE/COFF文件与ELF文件非常相似。它们都是基于段的结构的二进制文件格式。Windows 下最常见的目标文件格式就是 COFF 文件格式，微软的编译器产生的目标文件都是这种格式。COFF文件有一个很有意思的段叫 “.drectve 段”，这个段中保存的是编译器传递给链接器的命令行参数，可以通过这个段实现指定运行库等功能。\nWindows下的可执行文件、动态链接库等都使用 PE 文件格式。PE 文件格式是 COFF文件格式的改进版本，增加了 PE 文件头、数据目录等一些结构，使得能够满足程序执行时的需求。\n"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cg1akxfir4w0",
+                    "created": 1638090392259,
+                    "text": "5.1、Windows的二进制文件格式 PE/COFF",
+                    "note": "PE（Protable Executable）可执行格式；\nCOFF（Common Object File Format）。\n"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cg1al88le740",
+                    "created": 1638090415785,
+                    "text": "5.2、PE的前身——COFF"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cg1ansqpw940",
+                            "created": 1638090617145,
+                            "text": "COFF文件结构"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cg1alfyidyo0",
+                    "created": 1638090432589,
+                    "text": "5.3、链接指示信息",
+                    "note": "COFF独有的：\n.drectve段：“Directive”缩写，该段内容是编译器传递给链接器的指令（Directive），即编译器希望告诉链接器应该怎样链接这个目标文件。\n\n.debug段：调试信息段（详见5.4小节）。\n"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cg1alq24t2w0",
+                    "created": 1638090454576,
+                    "text": "5.4、调试信息",
+                    "note": ".debug段：调试信息段。"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cg1alsrnq5k0",
+                    "created": 1638090460473,
+                    "text": "5.5、大家都有符号表",
+                    "note": "COFF符号表（Symbol table）"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cg1alwsu93s0",
+                    "created": 1638090469252,
+                    "text": "5.6、Windows下的ELF——PE"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cg1as5wex9s0",
+                            "created": 1638090959244,
+                            "text": "5.6.1 PE数据目录",
+                            "note": "在Windows 系统装载PE 可执行文件时，往往须要很快地找到一些装载所需要的数据结构，比如导入表、导出表、资源、重定位表等。这些常用的数据的位置和长度都被保存在了一个叫数据目录（Data Directory）段结构体里面。\n其中，导出表、导入表、资源表、异常表、重定位表、调试信息表、线程私有存储（TLS） 等的地址和长度。这些表多数跟装载和 DLL动态链接有关，与静态\n链接没什么关系。"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
