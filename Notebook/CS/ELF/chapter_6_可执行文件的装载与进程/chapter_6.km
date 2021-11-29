@@ -1,0 +1,105 @@
+{
+    "root": {
+        "data": {
+            "id": "cg1b68pykxs0",
+            "created": 1638092062482,
+            "text": "第六章、可执行文件的装载与进程"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cg1b8ca4smw0",
+                    "created": 1638092226961,
+                    "text": "6.1、进程虚拟地址空间"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cg2d0bk8il40",
+                            "created": 1638198800658,
+                            "text": "PAE"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cg1b8if19jc0",
+                    "created": 1638092240318,
+                    "text": "6.2、装载的方式"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cg2d0gy3weg0",
+                            "created": 1638198812381,
+                            "text": "6.2.1、覆盖装入"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cg2d0mievcw0",
+                            "created": 1638198824492,
+                            "text": "6.2.2、页映射"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cg1b8mxmcw80",
+                    "created": 1638092250149,
+                    "text": "6.3、从操作系统角度看可执行文件的装载"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cg2d10awoyo0",
+                            "created": 1638198854514,
+                            "text": "6.3.1、进程的建立"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cg2d1531i4o0",
+                            "created": 1638198864922,
+                            "text": "6.3.2、页错误"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cg1b8vk5vs00",
+                    "created": 1638092268926,
+                    "text": "6.4、进程虚存空间分布"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cg1b93tk7tc0",
+                    "created": 1638092286909,
+                    "text": "6.5、Linux内核装载ELF过程简介"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cg1b9fz8qqo0",
+                    "created": 1638092313374,
+                    "text": "6.6、Windows PE的装载"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
