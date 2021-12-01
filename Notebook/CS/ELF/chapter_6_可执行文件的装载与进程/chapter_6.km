@@ -3,7 +3,8 @@
         "data": {
             "id": "cg1b68pykxs0",
             "created": 1638092062482,
-            "text": "第六章、可执行文件的装载与进程"
+            "text": "第六章、可执行文件的装载与进程",
+            "font-weight": "bold"
         },
         "children": [
             {
@@ -112,6 +113,14 @@
                             "id": "cg3824zpcuo0",
                             "created": 1638286397491,
                             "text": "6.4.1、ELF文件链接视图和执行视图"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cg4381qnkmo0",
+                            "created": 1638374315006,
+                            "text": "6.4.2、堆和栈"
                         },
                         "children": []
                     }
