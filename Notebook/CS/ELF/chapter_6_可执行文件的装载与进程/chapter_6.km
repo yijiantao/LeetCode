@@ -123,6 +123,30 @@
                             "text": "6.4.2、堆和栈"
                         },
                         "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cg438pywzko0",
+                            "created": 1638374367748,
+                            "text": "6.4.3、堆的最大申请数量"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cg438wm6vs00",
+                            "created": 1638374382216,
+                            "text": "6.4.4、段地址对齐"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cg4391qtjug0",
+                            "created": 1638374393380,
+                            "text": "6.4.5、进程栈初始化"
+                        },
+                        "children": []
                     }
                 ]
             },
