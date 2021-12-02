@@ -9,22 +9,16 @@ ELF 可执行文件引入了一个概念叫做 “Segment”，一个“Segment�
 说映射以后在进程虚存空间中只有一个相对应的 VMA，而不是两个，这样做的好处是可以
 很明显地减少页面内部碎片，从而节省了内存空间。
 
-很难将 "Segment” 和"Section"这两个词从中文的翻译上加以区分，因为很多时候 Section 也被翻译成“段”，回顾第2章，我们也没有很严格区分这两个英文词汇
-和两个中文词汇 “段”和“节”
-之问的相互翻译。很明显：
+很难将 "Segment” 和"Section"这两个词从中文的翻译上加以区分，因为很多时候 Section 也被翻译成“段”，回顾第2章，我们也没有很严格区分这两个英文词汇和两个中文词汇 “段”和“节”之问的相互翻译。很明显：
 从链接的角度看，ELF 文件是按"Section"存储的，事实也的确如此；
 从装载的角度看，ELF 文件又可以按照"Segment"划分。
 我们在这里就对"Segment” 不作翻译，一律按照原词。
 
 
-
-我们可以使用readelf 命令来查看 ELF的
-“Segment”。正如描述“Section”属性的结构
-叫做段表，描述
-“Segment” 的结构叫程序头 (Program Header)，它描述了 ELF 文件该如
+我们可以使用readelf 命令来查看 ELF的“Segment”。
+正如描述“Section”属性的结构叫做段表，描述“Segment” 的结构叫程序头 (Program Header)，它描述了 ELF 文件该如
 何被操作系统映射到进程的虚拟空间：
-$ readelf
--1 SectionMapping.elf
+$ readelf -l SectionMapping.elf
 
 
 ```bash
