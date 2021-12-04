@@ -1,0 +1,70 @@
+{
+    "root": {
+        "data": {
+            "id": "cg6n58axzhc0",
+            "created": 1638633636312,
+            "text": "第7章·动态链接"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cg6n5n70mnc0",
+                    "created": 1638633668727,
+                    "text": "7.1、为什么要动态链接"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cg6n5r9jop40",
+                    "created": 1638633677587,
+                    "text": "7.2、简单的动态链接例子"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cg6n5x2giu00",
+                    "created": 1638633690219,
+                    "text": "7.3、地址无关代码"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cg6n611j8t40",
+                    "created": 1638633698870,
+                    "text": "7.4、延迟绑定（PLT）"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cg6n698mpug0",
+                    "created": 1638633716714,
+                    "text": "7.5、动态链接相关结构"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cg6n6f25pyg0",
+                    "created": 1638633729383,
+                    "text": "7.6、动态链接的步骤和实现"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cg6n6m6equ80",
+                    "created": 1638633744877,
+                    "text": "7.7、显式运行时链接"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
