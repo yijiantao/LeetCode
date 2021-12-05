@@ -1,0 +1,62 @@
+{
+    "root": {
+        "data": {
+            "id": "cg72ug44opk0",
+            "created": 1638677929067,
+            "text": "第8章·Linux共享库的组织"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cg72up07wr40",
+                    "created": 1638677948422,
+                    "text": "8.1、共享库版本"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cg72uw32sgg0",
+                    "created": 1638677963832,
+                    "text": "8.2、符号版本"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cg72uyt6u880",
+                    "created": 1638677969765,
+                    "text": "8.3、共享库系统路径"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cg72v44nqyw0",
+                    "created": 1638677981342,
+                    "text": "8.4、共享库查找过程"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cg72vcsm5y80",
+                    "created": 1638678000205,
+                    "text": "8.5、环境变量"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cg72vgxi8dc0",
+                    "created": 1638678009208,
+                    "text": "8.6、共享库等创建和安装"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
