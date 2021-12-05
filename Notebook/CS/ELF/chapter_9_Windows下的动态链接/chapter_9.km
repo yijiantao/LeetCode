@@ -1,0 +1,54 @@
+{
+    "root": {
+        "data": {
+            "id": "cg78np16dlk0",
+            "created": 1638694326590,
+            "text": "第9章·Windows下的动态链接"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cg78nx4bmfc0",
+                    "created": 1638694344195,
+                    "text": "9.1、DLL简介"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cg78o1gijvk0",
+                    "created": 1638694353639,
+                    "text": "9.2、符号导出导入表"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cg78o9vgz9s0",
+                    "created": 1638694371958,
+                    "text": "9.3、DLL优化"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cg78oohyfvk0",
+                    "created": 1638694403792,
+                    "text": "9.4、C++与动态链接"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cg78oucb9280",
+                    "created": 1638694416512,
+                    "text": "9.5、DLL HELL"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
