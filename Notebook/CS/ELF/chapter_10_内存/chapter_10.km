@@ -1,0 +1,65 @@
+{
+    "root": {
+        "data": {
+            "id": "cgc7953bxxk0",
+            "created": 1639198164760,
+            "text": "第10章·内存"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cgc79a0fttk0",
+                    "created": 1639198175469,
+                    "text": "10.1、程序的内存布局",
+                    "note": "1、栈："
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cgc79f7nh540",
+                    "created": 1639198186789,
+                    "text": "10.2、栈与调用惯例"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgdcrdg9ejk0",
+                            "created": 1639315259017,
+                            "text": "10.2.1、什么是栈"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cgdcs7eaaoo0",
+                                    "created": 1639315324201,
+                                    "text": "栈指针：esp和ebp"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cgdcrihnh9s0",
+                            "created": 1639315269985,
+                            "text": "10.2.2、调用惯例（函数调用）"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cgc79m4wos80",
+                    "created": 1639198201861,
+                    "text": "10.3、堆与内存管理"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
