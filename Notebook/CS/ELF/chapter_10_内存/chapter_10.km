@@ -33,7 +33,8 @@
                                 "data": {
                                     "id": "cgdcs7eaaoo0",
                                     "created": 1639315324201,
-                                    "text": "栈指针：esp和ebp"
+                                    "text": "栈指针寄存器：esp和ebp",
+                                    "note": "esp寄存器：始终定位栈顶，同时也就指向了当前函数的活动记录的顶部；\n\nebp寄存器：指向了函数活动记录的一个固定位置，ebp寄存器又称为帧指针（Frame Pointer）；"
                                 },
                                 "children": []
                             }
@@ -45,6 +46,39 @@
                             "created": 1639315269985,
                             "text": "10.2.2、调用惯例（函数调用）"
                         },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cgddssx2wrc0",
+                                    "created": 1639318192160,
+                                    "text": "函数参数的传递顺序和方式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgddt0xjb8g0",
+                                    "created": 1639318209602,
+                                    "text": "栈的维护方式"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cgddt3ixrrs0",
+                                    "created": 1639318215249,
+                                    "text": "名字修饰（Name-mangling）的策略"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cgdcuattrxk0",
+                            "created": 1639315488400,
+                            "text": "10.2.3、函数返回值传递"
+                        },
                         "children": []
                     }
                 ]
@@ -55,7 +89,40 @@
                     "created": 1639198201861,
                     "text": "10.3、堆与内存管理"
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "cgdcunt3yug0",
+                            "created": 1639315516654,
+                            "text": "10.3.1、什么是堆"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgdd2wry98g0",
+                            "created": 1639316163089,
+                            "text": "10.3.2、Linux进程堆管理"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgdd362x5ls0",
+                            "created": 1639316183343,
+                            "text": "10.3.3、Windows进程堆管理"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cgdd3oi1zjk0",
+                            "created": 1639316223440,
+                            "text": "10.3.4、堆分配算法"
+                        },
+                        "children": []
+                    }
+                ]
             }
         ]
     },
