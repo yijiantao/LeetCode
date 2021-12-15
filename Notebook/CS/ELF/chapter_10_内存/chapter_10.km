@@ -34,7 +34,7 @@
                                     "id": "cgdcs7eaaoo0",
                                     "created": 1639315324201,
                                     "text": "栈指针寄存器：esp和ebp",
-                                    "note": "esp寄存器：始终定位栈顶，同时也就指向了当前函数的活动记录的顶部；\n\nebp寄存器：指向了函数活动记录的一个固定位置，ebp寄存器又称为帧指针（Frame Pointer）；"
+                                    "note": "esp寄存器：始终定位栈顶，同时也就指向了当前函数的活动记录的顶部；\n\nebp寄存器：指向了函数活动记录的一个固定位置，ebp寄存器又称为帧指针（Frame Pointer）；（栈基）"
                                 },
                                 "children": []
                             }
@@ -44,14 +44,16 @@
                         "data": {
                             "id": "cgdcrihnh9s0",
                             "created": 1639315269985,
-                            "text": "10.2.2、调用惯例（函数调用）"
+                            "text": "10.2.2、调用惯例（函数调用）",
+                            "note": "调用方：\n1、cdecl\n2、stdcall\n3、fastcall\n4、pascal"
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "cgddssx2wrc0",
                                     "created": 1639318192160,
-                                    "text": "函数参数的传递顺序和方式"
+                                    "text": "函数参数的传递顺序和方式",
+                                    "note": "1、从右至左的顺序压参数入栈；\n2、从左至右的顺序压参数入栈；"
                                 },
                                 "children": []
                             },
@@ -77,7 +79,8 @@
                         "data": {
                             "id": "cgdcuattrxk0",
                             "created": 1639315488400,
-                            "text": "10.2.3、函数返回值传递"
+                            "text": "10.2.3、函数返回值传递",
+                            "note": "eax寄存器是返回值的通道。函数将返回值存储在eax中，返回后函数的调用方再读取eax。\n但是eax本身只有4个字节的大小，返回值超过4字节（5～8字节时，需要采用eax和ebx联合返回的方式，eax中存储返回值低4字节、ebx中存储高4字节）；\n"
                         },
                         "children": []
                     }
