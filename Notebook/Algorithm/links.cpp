@@ -14,24 +14,25 @@ struct ListNode {
 class Solution {
 public:
     void reorderList(ListNode* head) {
-        std::stack<ListNode*> stack_node;
-        ListNode* p = new ListNode();
-        p = head;
-        while (p->next) {
-            stack_node.push(p);
+        if (head == nullptr || head->next == nullptr) return;
+        std::vector<ListNode*> vector_node;
+        ListNode* p = head;
+        while (p) {
+            vector_node.push_back(p);
             p = p->next;
         }
 
         p = head;
-        ListNode* q = stack_node.top();
-        stack_node.pop();
-        while (p != q) {
-            q->next = p->next;
-            p->next = q;
-            p = q->next->next;
-            q = stack_node.top();
-            stack_node.pop();
+        int i = 0, j = vector_node.size() - 1;
+        while (i < j)
+        {
+            vector_node[i]->next = vector_node[j];
+            ++i;
+            if (i == j) break;
+            vector_node[j]->next = vector_node[i];
+            --j;
         }
+        vector_node[i]->next = nullptr;
     }
 };
 
@@ -39,8 +40,7 @@ int main()
 {
     std::vector<int> node_val{1,2,3,4};
     ListNode* head = new ListNode();
-    ListNode* p = new ListNode();
-    p = head;
+    ListNode* p = head;
     for (auto _v: node_val) {
         p->val = _v;
         p->next = new ListNode();
@@ -52,7 +52,7 @@ int main()
 
     // -*-*-*-*-*- 打印 -*-*-*-*-*-*-*-*-*-*-*-*-*
     p = head;
-    while (p->next) {
+    while (p) {
         std::cout << p->val << std::endl;
         p = p->next;
     }
