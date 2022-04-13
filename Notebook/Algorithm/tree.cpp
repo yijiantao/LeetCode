@@ -1,5 +1,7 @@
 #include <iostream>
 #include <vector>
+#include <memory>
+#include <string>
 
 // Definition for a binary tree node.
 struct TreeNode {
@@ -41,6 +43,10 @@ int main(int argc, char const *argv[]) {
     std::vector<std::vector<int>> descriptions = {{20, 15, 1}, {20, 17, 0}, {50, 20, 1}, {50, 80, 0}, {80, 19, 1}};
     Solution s;
     std::vector<int> ans{};
+    std::shared_ptr<std::string> p;
+    std::unique_ptr<std::string> u_p;
+    std::weak_ptr<std::string> w_p;
+
     ans = s.preorderTraversal();
     for (auto _v : ans) {
         std::cout << _v << ' ';
