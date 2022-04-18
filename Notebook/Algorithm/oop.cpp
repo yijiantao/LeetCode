@@ -6,7 +6,7 @@
 class Query_base {
     public:
         Query_base() = default;
-
+        std::string find(Query_base& p) const {};
     private:
         double book_no;
 
@@ -15,7 +15,13 @@ class Query_base {
 };
 
 class bulk_query : public Query_base {
+    public:
+        std::string find(bulk_query& p ) const {}; // 测试动态绑定（运行时绑定）
+    private:
+        double price_value;     // 折扣价格
 
+    protected:
+        double price;
 };
 
 
