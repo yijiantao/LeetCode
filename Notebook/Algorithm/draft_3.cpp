@@ -3,18 +3,31 @@
 #include <stdexcept>
 #include <typeinfo>
 
+// -*-*-*-*-*-*-* 定义测试类 -*-*-*-*-*-*-*-*-*
+struct pubilc_animals {
+    // pubilc_animals() = default;     // 析构函数（默认）
+    std::string name = "sheeps";
+    double weight(size_t idx, const float arr[]);
+    std::string run(std::string sound);
+};
+
+class animals {
+    public:
+        std::string run(std::string sound);
+        // friend pubilc_animals;
+
+    private:
+        std::string name = "";
+        double weight(size_t idx, const float arr[]);
+};
+
+
+// -*-*-*- 定义函数重载 与 传引用和传值拷贝（传参） -*-*-*-
 void print_size(size_t idx, std::vector<int> arr)
 {
     std::vector<int> a (10);
     std::cout << idx << std::endl;
 }
-
-// double print_size(const )
-// {
-//     double res = 0.0;
-//     for (auto _s:)
-//     return double;
-// }
 
 // decltype(arr) print_size()
 // {
@@ -71,6 +84,11 @@ int main(int argc, char const *argv[])
 
     // }
 
+    // -*-*-*-*-*-*-*- 函数调用 -*-*-*-*-*-*-*-*-*-*-
     std::cout << find_short_string(name, name+ " changed") << std::endl;
+
+    // -*-*-*-*-*-*-*- 类定义 -*-*-*-*-*-*-*-*-*--*-
+    pubilc_animals pa{};
+    std::cout << pa.name << std::endl;
     return 0;
 }
