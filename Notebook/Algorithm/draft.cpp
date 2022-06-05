@@ -2,11 +2,15 @@
 
 int i = 42;
 
+// 枚举类型
+enum week {Sun=7, Mon=1, Tue, Wed, Thu, Fri, Sat};
+//枚举常量Sun,Mon,Tue,Wed,Thu,Fri,Sat的值分别为7、1、2、3、4、5、6。
+
 struct sales_data {
     std::string book_no;
     unsigned units_sold = 0;
     double revenue = 0.0;
-    std::string year {"year", "mouth", "day"};
+    std::string date {"year", "month", "day"};
 };
 
 int main()
@@ -27,7 +31,7 @@ int main()
     如果想声明一个变量而非定义它，就在变量名前添加关键字 extern，而且不要显式地初始化变量：
     */
     extern int i;   // 声明i而非定义i
-    int j;   // 声明并定义j
+    int j_1;   // 声明并定义j_1
     
 
     /* 任何包含了显式初始化的声明即成为定义。
@@ -40,9 +44,9 @@ int main()
     */
 
     // -*-*-*-*-*-*-*-*-*- 引用 -*-*-*-*-*-*-*-*
-    int i = 100;
-    int j = i;
-    std::cout << i << "and" << j << std::endl;
+    int i_1 = 100;
+    int j = i_1;
+    std::cout << i_1 << "and" << j << std::endl;
     int &refj = j; // refj指向j; (refj是j的别名) 且引用类型必须是一个对象（引用只能绑定在对象上），不能给引用赋值；
     // 错误 int &refj = 1;
     std::cout << refj << std::endl;
@@ -62,5 +66,8 @@ int main()
     int *p1 = nullptr;  // 等价于 int *p1 = 0;
     // 先定义对象，再定义指向该对象的指针，做到初始化所有的指针，谨防空指针
 
+    // 枚举类型值输出
+    // week w;
+    std::cout<< Sun << Fri << std::endl;
     return 0;
 }
