@@ -68,6 +68,9 @@ int main()
 
     // 枚举类型值输出
     // week w;
-    std::cout<< Sun << Fri << std::endl;
+    std::cout<< week::Sun << week::Fri << std::endl;
+
+    // lambda表达式
+    auto f[]{};
     return 0;
 }
